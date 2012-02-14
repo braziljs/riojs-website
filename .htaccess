@@ -1,0 +1,61 @@
+# bloquear diretorios
+DirectoryIndex index.php index.htm index.html
+Options -Indexes
+
+<IfModule mod_setenvif.c>
+    SetEnvIfNoCase Accept-Encoding (gzip) APPEND_EXT=.$1
+</IfModule>
+
+<IfModule mod_deflate.c>
+ # A regra abaixo compacta arquivos do tipo html, text, css e javascript
+    SetOutputFilter DEFLATE
+   AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript
+</IfModule>
+<IfModule mod_gzip.c>
+	mod_gzip_on Yes
+	mod_gzip_dechunk Yes
+	mod_gzip_keep_workfiles No
+	mod_gzip_can_negotiate Yes
+	mod_gzip_add_header_count Yes
+	mod_gzip_send_vary Yes
+	mod_gzip_command_version '/mod_gzip_status'
+	mod_gzip_min_http 1000
+	mod_gzip_minimum_file_size 300
+	mod_gzip_maximum_file_size 512000
+	mod_gzip_maximum_inmem_size 60000
+	mod_gzip_handle_methods GET POST
+	mod_gzip_temp_dir /tmp
+	mod_gzip_item_include file .html$
+	mod_gzip_item_include file .php$
+	mod_gzip_item_include file .pl$
+	mod_gzip_item_include file .rb$
+	mod_gzip_item_include file .py$
+	mod_gzip_item_include file .cgi$
+	mod_gzip_item_include file .css$
+	mod_gzip_item_include file .js$
+	mod_gzip_item_include mime ^application/javascript$
+	mod_gzip_item_include mime ^application/x-javascript$
+	mod_gzip_item_include mime ^text/.*
+	mod_gzip_item_include mime ^httpd/unix-directory$
+	mod_gzip_item_include handler ^cgi-script$
+	mod_gzip_item_include handler ^server-status$
+	mod_gzip_item_include handler ^server-info$
+	mod_gzip_item_include handler ^application/x-httpd-php
+	mod_gzip_item_exclude mime ^image/.*
+</IfModule>
+
+# BEGIN Cache-Control Headers
+<IfModule mod_headers.c>
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)(\.gz)?$">
+Header set Expires "Thu, 01 Apr 2013 20:00:00 GMT"
+Header unset ETag
+FileETag None
+</FilesMatch>
+</IfModule>
+# END Cache-Control Headers
+
+# BEGIN Turn ETags Off
+<IfModule mod_headers.c>
+   Header unset ETag
+</IfModule>
+FileETag None

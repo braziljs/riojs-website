@@ -1,0 +1,133 @@
+*
+	margin 0
+	padding 0
+ 
+html
+	background-color #e4e4e4
+	background url('/img/bg.jpg') repeat center center,url('/img/bg_tile.jpg')
+	font-family Georgia,Times,serif
+
+body
+	color #555
+	min-height 600px
+
+iframe 
+	margin-top  20px
+
+a, a visited 
+	text-decoration none
+	outline none
+	color #f60
+
+a hover
+	text-decoration underline
+
+h1, h2, h3
+	font-weight normal
+
+.container
+	margin auto
+	width 900px
+
+.title
+	color #555
+	font-size 38px
+	text-shadow  1px 1px 0 rgba(255, 255, 255, 0.5)
+	text-transform lowercase
+	padding 30px 0
+	float left
+	width 540px
+
+.title em
+	font-size 0.5em
+
+
+.title h1 a
+	color  #555
+
+
+.title h1 a hover
+	text-decoration  none
+
+
+.fb-like
+	float right
+	padding 86px 0 30px 0
+	width 300px
+
+.join
+	clear  both
+	font-size  0.5em
+
+.subcribe
+	font-size  20px
+
+.meetup
+	font-size  20px
+	background  none repeat scroll 0 0 rgba(0, 0, 0, 0.8)
+	border  1px solid rgba(0, 0, 0, 0.2)
+	box-shadow  0 1px 3px rgba(0, 0, 0, 0.5)
+	clear both
+	color #fff
+	font-weight  bold
+	margin  0 0 0 -23px
+	padding  9px 13px 5px 23px
+	text-align  left !important
+
+.description
+	background-color #000000
+	color #FFFFFF
+	font-size 1em
+	letter-spacing 0.03em
+	opacity 0.7
+	padding 10px 0
+	text-indent 0.3em
+
+.speaker 
+	background none repeat scroll 0 0 #F2F2F2
+	box-shadow  0 4px 0 rgba(94, 94, 94, 0.1)
+	list-style none
+	margin-bottom  4px
+	padding  25px
+	display block
+
+.speaker em
+	margin-bottom 15px	
+	display block
+
+.speaker-talk
+	display block
+	font-size 20px
+	text-transform  uppercase
+
+.speaker-talk before
+	content  '→ '
+
+.speaker-name
+	font-size  20px
+
+.speaker-social
+	opacity 0.5
+	display inline-block
+	color transparent
+	-moz-transition  all 1s ease
+	-webkit-transition  all 1s ease
+	-o-transition  all 1s ease
+	transition  all 1s ease
+	zoom  1
+	*display  inline
+	height  16px
+	width  16px
+
+a.speaker-social hover
+	cursor pointer
+	opacity 1  
+	-moz-transform  rotate(360deg)
+	-webkit-transform  rotate(360deg)
+	
+	-o-transform  rotate(360deg)
+	
+	transform  rotate(360deg)
+
+.speaker-name after
+	content  ' → '

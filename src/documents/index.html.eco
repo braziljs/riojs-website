@@ -1,6 +1,6 @@
 ---
 layout: 'default'
-title: 'rio.js'
+title: 'Grupo de desenvolvedores javascript do Rio de Janeiro'
 ---
 
 <% for meetup in @documents: %>
@@ -21,7 +21,7 @@ title: 'rio.js'
 							<a class="speaker-talk" href="<%= document.url %>"><%= document.talkName %></a>
 							<span class="speaker-name">por <%= document.speakerName %></span>
 							<a class="speaker-social" href="<%= document.speakerTwitter %>">
-								<img src="assets/img/t.png" alt="twitter">
+								<img src="/img/t.png" alt="twitter">
 							</a>
 						</li>
 
@@ -59,7 +59,7 @@ title: 'rio.js'
 							<a class="speaker-talk" href="<%= document.url %>"><%= document.talkName %></a>
 							<span class="speaker-name">por <%= document.speakerName %></span>
 							<a class="speaker-social" href="<%= document.speakerTwitter %>">
-								<img src="assets/img/t.png" alt="twitter">
+								<img src="/img/t.png" alt="twitter">
 							</a>
 						</li>
 

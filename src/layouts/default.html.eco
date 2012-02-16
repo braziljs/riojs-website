@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>rio.js - Grupo de desenvolvedores javascript do Rio de Janeiro</title>
+        <title>rio.js - Grupo de desenvolvedores JavaScript do Rio de Janeiro</title>
         
         <link rel="stylesheet" href="/assets/css/styles.css" />
         
@@ -15,84 +15,14 @@
         <div class="container">
 
             <header class="title">
-                <h1>rio.js</h1>
+                <h1><a href="/">rio.js</a></h1>
                 <em>Javascript user group</em>
                 <a class="join" href="http://www.facebook.com/groups/riojs/">&rarr; participe de nosso grupo no facebook</a>
             </header>
             
             <div class="fb-like" data-href="http://riojs.org" data-send="false" data-width="300" data-show-faces="true" data-font="arial"></div>
 
-            <% for meetup in @documents: %>
-
-                <% if meetup.url.indexOf('/nextMeetup') == 0: %>
-
-                    <h1 class="meetup"><%= meetup.data %> - próximo encontro - inscrições encerradas</h1>
-
-                    <ul class="speakers">
-
-                        <% for document in @documents: %>
-
-                            <% if document.url.indexOf('/talks') == 0: %>
-
-                                <% if document.edicao == meetup.edicao: %>
-                                
-                                    <li class="speaker">
-                                        <span class="speaker-talk"><%= document.talkName %></span>
-                                        <span class="speaker-name">por <%= document.speakerName %></span>
-                                        <a class="speaker-social" href="<%= document.speakerTwitter %>">
-                                            <img src="assets/img/t.png" alt="twitter">
-                                        </a>
-                                    </li>
-
-                                <% end %>
-
-                            <% end %>
-
-                        <% end %>
-
-                    </ul>
-
-                <% end %>
-
-            <% end %>
-
-            <header class="title">
-                <em>encontros anteriores</em>
-            </header>
-
-            <% for meetup in @documents: %>
-
-                <% if meetup.url.indexOf('/meetups') == 0: %>
-
-                    <h1 class="meetup"><%= meetup.data %> - resumo <%= meetup.edicao %>º encontro</h1>
-
-                    <ul class="speakers">
-
-                        <% for document in @documents: %>
-
-                            <% if document.url.indexOf('/talks') == 0: %>
-
-                                <% if document.edicao == meetup.edicao: %>
-                                
-                                    <li class="speaker">
-                                        <a class="speaker-talk" href="<%= document.url %>"><%= document.talkName %></a>
-                                        <span class="speaker-name">por <%= document.speakerName %></span>
-                                        <a class="speaker-social" href="<%= document.speakerTwitter %>">
-                                            <img src="assets/img/t.png" alt="twitter">
-                                        </a>
-                                    </li>
-
-                                <% end %>
-
-                            <% end %>
-
-                        <% end %>
-
-                    </ul>
-
-                <% end %>
-
-            <% end %>
+            <%- @content %>
 
         <div id="fb-root"></div>
         <script>

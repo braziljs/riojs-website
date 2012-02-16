@@ -7,7 +7,7 @@ title: 'rio.js'
 
 	<% if meetup.url.indexOf('/nextMeetup') == 0: %>
 
-		<h1 class="meetup"><%= meetup.data %> - próximo encontro - inscrições encerradas</h1>
+		<h1 class="meetup"><%= meetup.data %> - último encontro</h1>
 
 		<ul class="speakers">
 
@@ -18,7 +18,7 @@ title: 'rio.js'
 					<% if document.edicao == meetup.edicao: %>
 					
 						<li class="speaker">
-							<span class="speaker-talk"><%= document.talkName %></span>
+							<a class="speaker-talk" href="<%= document.url %>"><%= document.talkName %></a>
 							<span class="speaker-name">por <%= document.speakerName %></span>
 							<a class="speaker-social" href="<%= document.speakerTwitter %>">
 								<img src="assets/img/t.png" alt="twitter">

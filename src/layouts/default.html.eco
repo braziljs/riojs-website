@@ -22,43 +22,39 @@
             
             <div class="fb-like" data-href="http://riojs.org" data-send="false" data-width="300" data-show-faces="true" data-font="arial"></div>
 
-            <h1 class="meetup">Fevereiro 11, 2012 - próximo encontro - inscrições encerradas</h1>
+            <% for meetup in @documents: %>
 
-            <ul class="speakers">
+                <% if meetup.url.indexOf('/nextMeetup') == 0: %>
 
-                <li class="speaker">
-                    <span class="speaker-talk">JS Storage</span>
-                    <span class="speaker-name">por Jean Nascimento aka Suissa</span>
-                    <a class="speaker-social" href="https://twitter.com/osuissa">
-                        <img src="assets/img/t.png" alt="twitter">
-                    </a>
-                </li>                    
+                    <h1 class="meetup"><%= meetup.data %> - próximo encontro - inscrições encerradas</h1>
 
-                <li class="speaker">
-                    <span class="speaker-talk">Design Patterns</span>
-                    <span class="speaker-name">por Ciro Nunes</span>
-                    <a class="speaker-social" href="https://twitter.com/cironunesdev">
-                        <img src="assets/img/t.png" alt="twitter">
-                    </a>
-                </li>
-                
-                <li class="speaker">
-                    <span class="speaker-talk"> Toura Mulberry e Dojo Toolkit</span>
-                    <span class="speaker-name">por Nuba Princigalli</span>
-                    <a class="speaker-social" href="https://twitter.com/nprincigalli">
-                        <img src="assets/img/t.png" alt="twitter">
-                    </a>
-                </li>
+                    <ul class="speakers">
 
-                <li class="speaker">
-                    <span class="speaker-talk">Sencha Touch 2</span>
-                    <span class="speaker-name">por Zaedy Sayão</span>
-                    <a class="speaker-social" href="https://twitter.com/zaedysayao">
-                        <img src="assets/img/t.png" alt="twitter">
-                    </a>
-                </li>
+                        <% for document in @documents: %>
 
-            </ul>
+                            <% if document.url.indexOf('/talks') == 0: %>
+
+                                <% if document.edicao == meetup.edicao: %>
+                                
+                                    <li class="speaker">
+                                        <span class="speaker-talk"><%= document.talkName %></span>
+                                        <span class="speaker-name">por <%= document.speakerName %></span>
+                                        <a class="speaker-social" href="<%= document.speakerTwitter %>">
+                                            <img src="assets/img/t.png" alt="twitter">
+                                        </a>
+                                    </li>
+
+                                <% end %>
+
+                            <% end %>
+
+                        <% end %>
+
+                    </ul>
+
+                <% end %>
+
+            <% end %>
 
             <header class="title">
                 <em>encontros anteriores</em>

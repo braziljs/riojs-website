@@ -98,10 +98,10 @@ h1, h2, h3
 .speaker-talk
 	display block
 	font-size 20px
-	text-transform  uppercase
+	text-transform uppercase
 
 .speaker-talk before
-	content  '→ '
+	content '→ '
 
 .speaker-name
 	font-size  20px
@@ -113,11 +113,11 @@ h1, h2, h3
 	-moz-transition  all 1s ease
 	-webkit-transition  all 1s ease
 	-o-transition  all 1s ease
-	transition  all 1s ease
-	zoom  1
-	*display  inline
-	height  16px
-	width  16px
+	transition all 1s ease
+	zoom 1
+	*display inline
+	height 16px
+	width 16px
 
 a.speaker-social hover
 	cursor pointer

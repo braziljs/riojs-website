@@ -1,16 +1,21 @@
-## Instalando
+# rio.js
+## javascript user group
 
-1. [Instale o Node.js](https://github.com/balupton/node/wiki/Installing-Node.js)
+-----------------
 
-1. Instale suas dependências
-		
-		npm install -g coffee-script
+### Preparando o ambiente
 
-1. Instale o DocPad
+1. Instale o [Node.js](http://nodejs.org/)
 
-		npm install -g docpad
+2. Instale o gerenciador de pacotes [NPM](http://npmjs.org/)
 
-## Usando
+3. Instale suas dependências: `npm install -g coffee-script`
 
-- No terminal: `docpad watch`
+4. E por fim, instale o DocPad: `npm install -g docpad`
+
+### Rodando a criança
+
+- Vá no terminal e clone o projeto: `git@github.com:davidsonfellipe/riojs-website`
+- Depois navegue até o diretório: `cd riojs-website`
+- E rode o projeto: `docpad run`
 - Agora você já poderá vê-lo em: `http://localhost:9778/`

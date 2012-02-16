@@ -10,7 +10,7 @@
 
 ### Rodando a criança
 
-- Clone o projeto: `git@github.com:davidsonfellipe/riojs-website`
+- Clone o projeto: `git clone git@github.com:davidsonfellipe/riojs-website`
 - Depois navegue até o diretório: `cd riojs-website`
 - E rode o projeto: `docpad run`
 - Agora você já poderá vê-lo em: `http://localhost:9778`

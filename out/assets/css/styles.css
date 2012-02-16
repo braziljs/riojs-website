@@ -16,6 +16,10 @@ body{
 	min-height:600px;
 }
 
+iframe {
+    margin-top: 20px;
+}
+
 a, a:visited {
 	text-decoration:none;
 	outline:none;
@@ -44,6 +48,15 @@ h1, h2, h3{
 .title em{
 	font-size:0.5em;
 }
+
+.title h1 a{
+    color: #555;
+}
+
+.title h1 a:hover{
+    text-decoration: none;
+}
+
 .fb-like{
 	float:right;
 	padding:86px 0 30px 0;

@@ -12,6 +12,7 @@ Para isso, basta acessar o diretório `src/documents/talks` e alterar o conteúd
 - Instale o [Node.js](http://nodejs.org/)
 - Instale o gerenciador de pacotes [NPM](http://npmjs.org/)
 - Instale as dependências: `npm install`
+- Caso receba este erro "npm ERR! Couldn't read dependencies." você deve mudar as permissões na pasta. Exemplo: sudo chmod -Rf 777 * 
 
 ### Rodando a criança
 

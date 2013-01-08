@@ -4,6 +4,17 @@ edicao: 3
 data: Dezembro 10, 2011
 ---
 <ul class="speakers">
+    <li class="speaker">
+        <a class="speaker-talk" href="http://leobetosouza.github.com/Palestra-Acessibilidade-e-JS/#/">Melhorando a Acessibilidade de Aplicações JavaScript</a>
+        <span class="speaker-name">por Leonardo Alberto Souza</span>
+        <a class="speaker-social" href="http://blog.leobetosouza.com.br/">
+            <img src="/img/rss2.png" alt="rss">
+        </a>
+        <a class="speaker-social" href="https://twitter.com/leobetosouza">
+            <img src="/img/t.png" alt="twitter">
+        </a>
+    </li>
+    
      <li class="speaker">
         <a class="speaker-talk" href="http://garu.github.com/Three.js---Slides/">Three.js</a>
 

@@ -1,6 +1,7 @@
 #Rio.JS Website
 
 ##Ambiente
+- Atualize suas gems `sudo gem update --system`
 - Instale o Jekyll `sudo gem install jekyll`
 - clone o projeto `https://github.com/braziljs/riojs-website.git`
 - vá até `riojs-website`

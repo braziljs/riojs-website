@@ -5,9 +5,12 @@ data: Dezembro 15, 2012
 ---
 <ul class="speakers">
      <li class="speaker">
-        <span class="speaker-talk"><a href="http://leobetosouza.github.com/Palestra-Peculiaridades-do-JavaScript/#/">PECULIARIDADES DO JAVASCRIPT</a></span>
+        <a class="speaker-talk" href="http://leobetosouza.github.com/Palestra-Peculiaridades-do-JavaScript/#/">Peculiaridades do JavaScript</a>
         <span class="speaker-name">por Leonardo Alberto Souza</span>
-        <a class="speaker-social" href="https://twitter.com/LEOBETOSOUZA">
+        <a class="speaker-social" href="http://blog.leobetosouza.com.br/">
+            <img src="/img/rss2.png" alt="rss">
+        </a>
+        <a class="speaker-social" href="https://twitter.com/leobetosouza">
             <img src="/img/t.png" alt="twitter">
         </a>
     </li>
@@ -20,7 +23,7 @@ data: Dezembro 15, 2012
     <li class="speaker">
         <span class="speaker-talk"><a href="http://cironunes.github.com/jquery-to-angular/">Passo a passo do jQuery ao Angular</a></span>
         <span class="speaker-name">por Ciro Nunes</span>
-        <a class="speaker-social" href="https://twitter.com/@cironunesdev">
+        <a class="speaker-social" href="https://twitter.com/cironunesdev">
             <img src="/img/t.png" alt="twitter">
         </a>
     </li>

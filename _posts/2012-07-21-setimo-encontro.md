@@ -1,7 +1,7 @@
 ---
 layout: default
 edicao: 7
-data: Julhor 21, 2012
+data: Julho 21, 2012
 ---
 <ul class="speakers">
 

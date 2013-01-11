@@ -1,6 +1,6 @@
 ---
 layout: default
-edicao: 1 Edicao
+edicao: 1
 data: Agosto 6, 2011
 ---
 <ul class="speakers">

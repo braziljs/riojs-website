@@ -12,4 +12,4 @@
 - Caso o evento ja aconteceu e você quer submeter a palestra ou correção basta editar os encotros que já estão lá.
 
 
-####qualquer ajuda, contribuição será bem vinda.
+####Qualquer ajuda, contribuição será bem vinda.

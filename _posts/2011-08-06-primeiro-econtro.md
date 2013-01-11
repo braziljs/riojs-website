@@ -21,4 +21,13 @@ data: Agosto 6, 2011
             <img src="/img/t.png" alt="twitter">
         </a>
     </li>
+
+    <li class="speaker">
+        <a class="speaker-talk" href="http://www.slideshare.net/ramonpg/caf22-communityaholic">Community-a-holic</a>
+
+        <span class="speaker-name">por Ramon Page</span>
+        <a class="speaker-social" href="https://twitter.com/ramonpage">
+            <img src="/img/t.png" alt="twitter">
+        </a>
+    </li>
 </ul>

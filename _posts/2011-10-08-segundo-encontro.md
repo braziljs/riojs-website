@@ -33,5 +33,8 @@ data: Outubro 8, 2011
         <a class="speaker-social" href="https://twitter.com/davidsonfellipe">
             <img src="/img/t.png" alt="twitter">
         </a>
+        <a class="speaker-social" href="https://facebook.com/fellipe">
+            <img src="/img/fb.png" alt="facebook">
+        </a>
     </li>
 </ul>

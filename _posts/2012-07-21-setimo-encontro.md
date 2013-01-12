@@ -8,6 +8,9 @@ data: Julho 21, 2012
     <li class="speaker">
         <span class="speaker-talk">Bootstrap Globocom</span>
         <span class="speaker-name">por Alexandre Magno</span>
+        <a class="speaker-social" href="https://twitter.com/alexanmtz">
+            <img src="/img/t.png" alt="twitter">
+        </a>
     </li>
 
     <li class="speaker">

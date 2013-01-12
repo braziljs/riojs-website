@@ -25,4 +25,15 @@ data: Julho 21, 2012
             <img src="/img/t.png" alt="twitter">
         </a>
     </li>
+
+     <li class="speaker">
+        <span class="speaker-talk">
+            <a href="http://talks.zenorocha.com/2012/frontincuritiba/#1">Como Usar HTML 5 Sem Uma Máquina do Tempo</a>
+        </span>
+        <span class="speaker-name">por Zeno Rocha</span>
+        <a class="speaker-social" href="https://twitter.com/zenorocha">
+            <img src="/img/t.png" alt="twitter">
+        </a>
+    </li>
+
 </ul>

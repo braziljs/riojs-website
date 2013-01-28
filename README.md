@@ -4,8 +4,9 @@
 - Atualize suas gems `sudo gem update --system`
 - Instale o Jekyll `sudo gem install jekyll`
 - clone o projeto `https://github.com/braziljs/riojs-website.git`
-- vá até `riojs-website`
-- rode `jekyll` e acesse [http://localhost:4000](http://localhost:4000)
+- vá até o diretório clonado `riojs-website`
+- digite `jekyll` 
+- vá em seu browser e acesse [http://localhost:4000](http://localhost:4000)
 
 ##Adicionando talks
 - Vá até a pasta _posts, crie um arquivo `ano-mes-dia-nome-encontro.md`

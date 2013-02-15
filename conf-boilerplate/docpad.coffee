@@ -6,7 +6,7 @@ module.exports =
     # Conference info
     conf:
       name: "Rio.JS"
-      description: "Conference description"
+      description: "RioJS, um grupo de desenvolvedores javascript do Rio de Janeiro, criado em junho de 2011, como o objetivo de reunir a comunidade do estado. Hoje conta com cerca de 520 participantes no facebook, se configurando como maior grupo JS da amÃ©rica latina."
       date: "9 Mar 2013"
       price: "R$ 30"
       venue: "Unirio"
@@ -18,7 +18,7 @@ module.exports =
     # Site info
     site:
       theme: "yellow-swan"
-      url: "http://confboilerplate.com"
+      url: "http://riojs.org"
       googleanalytics: "UA-26694649-1"
       images:
         facebook: "http://braziljs.org/img/fb-share.jpg"

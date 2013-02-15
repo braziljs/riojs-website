@@ -1,0 +1,37 @@
+<a href="https://github.com/braziljs/riojs-website" class="github-link">
+  <img src="<%= @site.theme %>/img/forkme.png" alt="Fork me on GitHub">
+</a>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="wrapper">
+    <h1 class="logo-name">
+      <a class="logo-link sprite" href="#" title="<%= @conf.name %>" itemprop="name"><%= @conf.name %></a>
+    </h1>
+
+    <section class="details">
+      <h2 class="tagline">
+        <%= @conf.date %>
+      </h2>
+      <h2 class="tagline">
+        <%= @conf.venue %>, RJ
+      </h2>
+      <div class="call-action-area">
+        <span class="price"><%= @conf.price %></span>
+      </div>
+      <ul>
+        <li class="social">
+          <a class="sprite github" href="https://github.com/braziljs/riojs-website"></a>
+        </li>
+        <li class="social">
+          <a class="sprite fb" href="http://facebook.com/groups/riojs"></a>
+        </li>
+        <li class="social">
+          <a class="sprite twitter" href="http://twitter.com/riodejaneirojs"></a>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <a href="http://eventick.com.br/riojs-conference" class="sprite call-action-link" title="Register now!"></a>
+</header>
+<!--  / HEADER -->

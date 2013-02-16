@@ -55,7 +55,7 @@ module.exports =
       photo: "almir.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Globo.com (RJ)"
-      twitter: "zuck"
+      twitter: "almirfilho"
       github: "almirfilho"
       presentation:
         title: "Revealing Facebook Secrets"
@@ -66,7 +66,7 @@ module.exports =
       photo: "luna.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Estante Virtual (RJ)"
-      twitter: "woz"
+      twitter: "bernarddeluna"
       github: "bernarddeluna"
       presentation:
         title: "Why do I prefer Android over iPhone"
@@ -77,7 +77,7 @@ module.exports =
       photo: "caio.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Globo.com (RJ)"
-      twitter: "zuck"
+      twitter: "caio_gondim"
       github: "caiogondim"
       presentation:
         title: "Revealing Facebook Secrets"
@@ -88,7 +88,7 @@ module.exports =
       photo: "ciro.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "Kanui (SP)"
-      twitter: "stevie"
+      twitter: "cironunesdev"
       github: "cironunes"
       presentation:
         title: "Presenting iPad"
@@ -110,7 +110,7 @@ module.exports =
       photo: "zaedy.jpg"
       bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
       company: "UFRJ (RJ)"
-      twitter: "woz"
+      twitter: "zaedysayao"
       github: "javamanrj"
       presentation:
         title: "Why do I prefer Android over iPhone"

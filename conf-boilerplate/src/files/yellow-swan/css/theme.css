@@ -409,6 +409,44 @@ h6 {
   }
 }
 @media only screen and (max-width: 480px) {
+  .sprite {
+    background-size: 300px 157px;
+  }
+  .header .logo-name {
+    left: 15px;
+  }
+  .header .logo-link {
+    width: 109px;
+  }
+  .header .details {
+    right: 15px;
+    top: 200px;
+  }
+  .header .tagline:first-child {
+    font-size: 24px;
+  }
+  .header .tagline {
+    font-size: 22px;
+    line-height: 22px;
+  }
+  .header .call-action-link {
+    bottom: 160px;
+    background-position: -113px -78px;
+    width: 183px;
+  }
+  .social .sprite {
+    height: 22px;
+    width: 22px;
+  }
+  .social .github {
+    background-position: -126px 0px;
+  }
+  .social .fb {
+    background-position: -147px 0px;
+  }
+  .social .twitter {
+    background-position: -169px 0px;
+  }
   /* speakers */
   .speakers .section-title {
     font-size: 35px;

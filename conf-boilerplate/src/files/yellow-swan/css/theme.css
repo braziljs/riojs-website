@@ -104,7 +104,6 @@ h6 {
 .header .tagline,
 .header .call-action-area .price {
   color: #fff;
-  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.3);
 }
 .header .tagline {
   font-weight: 100;
@@ -222,13 +221,13 @@ h6 {
   background: url(../img/sobre_bg.gif);
 }
 .speakers .section-title {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 128, 0, 0.8);
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 60px;
   font-weight: 800;
   text-transform: uppercase;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  /*text-shadow: 2px 2px 5px rgba(0,0,0,0.4);*/
   right: 12px;
 }
 .speakers-list {
@@ -317,7 +316,7 @@ h6 {
   display: none;
 }
 .speakers-item .company {
-  color: #f0a303;
+  color: rgba(255, 128, 0, 0.8);
   clear: both;
   display: block;
   font-size: 0.8em;
@@ -409,6 +408,10 @@ h6 {
   }
 }
 @media only screen and (max-width: 480px) {
+  .header {
+    height: 458px;
+    background: url(../img/homemobile.jpg) no-repeat center center #000000;
+  }
   .sprite {
     background-size: 300px 157px;
   }
@@ -420,7 +423,7 @@ h6 {
   }
   .header .details {
     right: 15px;
-    top: 200px;
+    top: 230px;
   }
   .header .tagline:first-child {
     font-size: 24px;
@@ -430,22 +433,12 @@ h6 {
     line-height: 22px;
   }
   .header .call-action-link {
-    bottom: 160px;
+    bottom: 100px;
     background-position: -113px -78px;
     width: 183px;
   }
-  .social .sprite {
-    height: 22px;
-    width: 22px;
-  }
-  .social .github {
-    background-position: -126px 0px;
-  }
-  .social .fb {
-    background-position: -147px 0px;
-  }
-  .social .twitter {
-    background-position: -169px 0px;
+  .social {
+    display: none;
   }
   /* speakers */
   .speakers .section-title {

@@ -409,8 +409,8 @@ h6 {
 }
 @media only screen and (max-width: 480px) {
   .header {
-    height: 458px;
     background: url(../img/homemobile.jpg) no-repeat center center #000000;
+    height: 458px;
   }
   .sprite {
     background-size: 300px 157px;
@@ -433,8 +433,8 @@ h6 {
     line-height: 22px;
   }
   .header .call-action-link {
-    bottom: 100px;
     background-position: -113px -78px;
+    bottom: 100px;
     width: 183px;
   }
   .social {
@@ -446,14 +446,15 @@ h6 {
   }
   .speaker-photo .photo {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
+    width: 300px;
   }
   .speakers-list {
-    width: 420px;
     margin-bottom: 30px;
+    width: 330px;
   }
   .speakers-item {
-    float: none;
     display: block;
+    float: none;
     height: 160px;
     text-align: center;
   }
@@ -464,8 +465,8 @@ h6 {
     font-weight: bolder;
   }
   .speech-time {
-    color: #2b2b2b;
     background: transparent;
+    color: #2b2b2b;
     font-weight: bolder;
   }
   .github-link {

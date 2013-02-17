@@ -10,22 +10,32 @@
         </span>
       <% end %>
 
-      <h3 class="speech-title">
-          <span><%= speaker.name %></span>
-          <span class="company"><%= speaker.company %></span>
-          <!-- <span><%= speaker.presentation.title %></span> -->
-      </h3>
-      <% if speaker.presentation.time: %>
-        <span class="speech-bullet"></span>
-        <span class="speech-time"><%= speaker.presentation.time %></span>
-      <% end %>
+      <hgroup class="speech-title">
+        <h3 itemprop="name" class="speaker-name"><%= speaker.name %></h3>
+        <h4 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" class="company">
+          <span itemprop="name"><%= speaker.company.name %></span>
+          <span itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+            (<span itemprop="addressRegion"><%= speaker.company.region %></span>)
+          </span>
+        </h4>
+      </hgroup>
+
+      <div class="presentation">
+        <% if speaker.presentation.title: %>
+          <span><%= speaker.presentation.title %></span>
+        <% end %>
+        <% if speaker.presentation.time: %>
+          <span class="speech-bullet"></span>
+          <span class="speech-time"><%= speaker.presentation.time %></span>
+        <% end %>
+      </div>
 
       <ul class="social">
         <li>
-          <a href="http://www.twitter.com/<%= speaker.twitter %>" title="Twitter @<%= speaker.twitter %>" class="sprite twitter"></a>
+          <a itemprop="url" href="http://www.twitter.com/<%= speaker.twitter %>" title="Twitter @<%= speaker.twitter %>" class="sprite twitter"></a>
         </li>
         <li>
-          <a href="http://www.github.com/<%= speaker.github %>" title="Twitter @<%= speaker.github %>" class="sprite github"></a>
+          <a itemprop="url" href="http://www.github.com/<%= speaker.github %>" title="<%= speaker.github %>" class="sprite github"></a>
         </li>
         <!--<li>
           <a href="http://www.facebook.com/<%= speaker.facebook %>" title="Twitter @<%= speaker.facebook %>" class="sprite fb"></a>

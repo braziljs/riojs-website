@@ -11,9 +11,9 @@
       <% end %>
 
       <h3 class="speech-title">
-          <span><%= speaker.name %></span>
-          <span class="company"><%= speaker.company %></span>
-          <!-- <span><%= speaker.presentation.title %></span> -->
+        <span><%= speaker.name %></span>
+        <span class="company"><%= speaker.company %></span>
+        <!-- <span><%= speaker.presentation.title %></span> -->
       </h3>
       <% if speaker.presentation.time: %>
         <span class="speech-bullet"></span>

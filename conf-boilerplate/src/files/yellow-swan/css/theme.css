@@ -294,11 +294,12 @@ h6 {
   z-index: 2;
 }
 .speakers-item .speech-title {
-  width: 300px;
+  width: 400px;
   position: absolute;
   right: 20px;
-  top: 10px;
+  text-align: right;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  top: 18px;
 }
 .speakers-item .speech-time {
   color: #666;
@@ -419,8 +420,24 @@ h6 {
 }
 @media only screen and (max-width: 480px) {
   /* speakers */
+  .speakers .section-title {
+    font-size: 35px;
+  }
   .speaker-photo .photo {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
+  }
+  .speakers-list {
+    width: 420px;
+    margin-bottom: 30px;
+  }
+  .speakers-item {
+    float: none;
+    display: block;
+    height: 160px;
+    text-align: center;
+  }
+  .speakers-item:nth-child(even) {
+    float: none;
   }
   .speech-title {
     font-weight: bolder;

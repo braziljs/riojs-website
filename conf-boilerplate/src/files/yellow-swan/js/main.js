@@ -50,7 +50,10 @@ var _scrollTop = function() {
 
       $(function() {
         that.animateScroll();
-        that.animateHeader();
+
+        if( $(window).width() > 500 ) {
+          that.animateHeader();
+        }
       });
     }
   }).init();

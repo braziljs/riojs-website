@@ -303,6 +303,11 @@ h6 {
   font-weight: 300;
   text-transform: lowercase;
 }
+.speakers-item .speaker-name {
+   font-size: 1em;
+   color: white;
+   margin-bottom: 3px;
+}
 .speakers-item .speech-bullet {
   background: url(../img/sprite.png) no-repeat -168px -35px;
   width: 33px;

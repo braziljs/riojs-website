@@ -54,7 +54,9 @@ module.exports =
       name: "Almir Filho"
       photo: "almir.jpg"
       bio: ""
-      company: "Globo.com (RJ)"
+      company:
+        name: "Globo.com"
+        region: "RJ"
       twitter: "almirfilho"
       github: "almirfilho"
       presentation:
@@ -65,7 +67,9 @@ module.exports =
       name: "Bernard De Luna"
       photo: "luna.jpg"
       bio: ""
-      company: "Estante Virtual (RJ)"
+      company:
+        name: "Estante Virtual"
+        region: "RJ"
       twitter: "bernarddeluna"
       github: "bernarddeluna"
       presentation:
@@ -76,7 +80,9 @@ module.exports =
       name: "Caio Gondim"
       photo: "caio.jpg"
       bio: ""
-      company: "Globo.com (RJ)"
+      company:
+        name: "Globo.com"
+        region: "RJ"
       twitter: "caio_gondim"
       github: "caiogondim"
       presentation:
@@ -87,7 +93,9 @@ module.exports =
       name: "Leo Balter"
       photo: "balter.jpg"
       bio: ""
-      company: "Estante Virtual (RJ)"
+      company:
+        name: "Estante Virtual"
+        region: "RJ"
       twitter: "leobalter"
       github: "leobalter"
       presentation:
@@ -98,7 +106,9 @@ module.exports =
       name: "Leo Beto Souza"
       photo: "leobeto.jpg"
       bio: "Leobetosouza se diverte com front-end desde a virada do milênio quando ninguém chamava de front-end e JavaScript só servia pra irritar o usuário. Já foi sobrinho. Já fez sites com tabelas e usou space.gif, bgsound e marquee. Fez scripts pra escrever mensagens na barra de status e de textos que seguiam o mouse. Abusou de framesets, gifs animados e escreveu o redapé de várias páginas 'Melhor visualizado no Internet Explorer 4.x com resolução de 800x600px'. Graças a Deus esse tempo ficou pra trás e hoje ele estuda Sistemas de Informação na UFF e codifica interfaces usáveis na Homem Máquina."
-      company: "Homem Máquina (RJ)"
+      company:
+        name: "Homem Máquina"
+        region: "RJ"
       twitter: "leobetosouza"
       github: "leobetosouza"
       presentation:
@@ -109,7 +119,9 @@ module.exports =
       name: "Zaedy Sayão"
       photo: "zaedy.jpg"
       bio: ""
-      company: "UFRJ (RJ)"
+      company:
+        name: "UFRJ"
+        region: "RJ"
       twitter: "zaedysayao"
       github: "javamanrj"
       presentation:
@@ -119,8 +131,10 @@ module.exports =
     # ,
     #   name: "Zeno Rocha"
     #   photo: "zeno.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Liferay (RJ)"
+    #   bio: ""
+    #   company:
+    #      name: "Liferay"
+    #      region: "RJ"
     #   twitter: "zenorocha"
     #   github: "zenorocha"
     #   presentation:

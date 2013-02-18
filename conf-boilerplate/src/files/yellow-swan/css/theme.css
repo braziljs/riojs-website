@@ -261,6 +261,9 @@ h6 {
 .speakers-item:hover .speaker-photo .photo {
   transition: 0.6s;
 }
+.speakers-item .presentation {
+  display: none;
+}
 .speakers-item .speakers-bio {
   bottom: 0;
   color: #fff;

@@ -183,9 +183,10 @@ h6 {
 /* =============================================================================
    LOCATION
    ========================================================================== */
-.location {
+.content .location {
   position: relative;
   min-height: 657px;
+  padding-top: 0;
 }
 .location .address {
   position: absolute;
@@ -217,10 +218,11 @@ h6 {
 /* =============================================================================
    SPEAKER
    ========================================================================== */
-.speakers {
+.speakers,
+.partners {
   background: url(../img/sobre_bg.gif);
 }
-.speakers .section-title {
+.section-title {
   color: rgba(255, 128, 0, 0.8);
   font-family: 'Open Sans', sans-serif;
   text-align: center;

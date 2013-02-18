@@ -32,7 +32,7 @@ module.exports =
       'location'
       # 'schedule'
       # 'sponsors'
-      # 'partners'
+      'partners'
       # 'contact'
     ]
 
@@ -128,19 +128,19 @@ module.exports =
         title: "Desenvolvendo aplicações Desktop com HTML5, CSS3 e JS"
         description: "HTML5 vem cada dia mais crescendo e sendo usado tanto para sites, como para aplicações mobile. Na palestra veremos uma nova vertente, como desenvolver aplicações desktop com o uso de html5. Ainda, veremos como aproveitar o mesmo código para sites, aplicações mobile e desktop."
         time: ""
-    # ,
-    #   name: "Zeno Rocha"
-    #   photo: "zeno.jpg"
-    #   bio: ""
-    #   company:
-    #      name: "Liferay"
-    #      region: "RJ"
-    #   twitter: "zenorocha"
-    #   github: "zenorocha"
-    #   presentation:
-    #     title: "Why do I prefer Android over iPhone"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "17h00"
+    ,
+      name: "Zeno Rocha"
+      photo: "zeno.jpg"
+      bio: ""
+      company:
+         name: "Liferay"
+         region: "RJ"
+      twitter: "zenorocha"
+      github: "zenorocha"
+      presentation:
+        title: ""
+        description: ""
+        time: ""
     ]
 
     # List of Sponsors
@@ -152,7 +152,7 @@ module.exports =
 
     # List of Partners
     partners: [
-      name: "BrazilJS"
-      logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
-      url: "http://braziljs.org"
+      name: "Novatec"
+      logo: "novatec.png"
+      url: "http://novatec.com.br"
     ]

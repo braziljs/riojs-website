@@ -394,6 +394,9 @@ h6 {
   border: 1px solid #ccc;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
 }
+.partner-item {
+  margin: 10px 18px 30px 19px;
+}
 .sponsor-link:hover,
 .sponsor-link:focus,
 .partner-link:hover,

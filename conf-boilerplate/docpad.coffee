@@ -53,14 +53,14 @@ module.exports =
     ,
       name: "Almir Filho"
       photo: "almir.jpg"
-      bio: ""
+      bio: "Bloga no @loopinfinito e trabalha na @globocom"
       company:
         name: "Globo.com"
         region: "RJ"
       twitter: "almirfilho"
       github: "almirfilho"
       presentation:
-        title: ""
+        title: "Dissecando o Web Dev Tools"
         description: ""
         time: ""
     ,

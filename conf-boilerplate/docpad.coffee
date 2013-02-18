@@ -156,6 +156,10 @@ module.exports =
       logo: "braziljs.png"
       url: "http://braziljs.org"
     ,
+      name: "Unirio"
+      logo: "unirio.png"
+      url: "http://www.unirio.br/"
+    ,
       name: "Novatec"
       logo: "novatec.png"
       url: "http://novatec.com.br"

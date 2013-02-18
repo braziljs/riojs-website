@@ -118,15 +118,15 @@ module.exports =
     ,
       name: "Zaedy Sayão"
       photo: "zaedy.jpg"
-      bio: ""
+      bio: "É especialista em aplicações RIA com uso do Ext e Sencha Touch. Graduando em Ciência da Computação pela UFRJ, é aderente aos movimentos ágeis e de modelos como o Mps.Br, trabalhando com PHP há mais de 6 anos e com Java há mais 10 anos. Desenvolve aplicações mobile em iOS, Android, BB10 e WP8, tanto nativo como em HTML5, sendo especialista no uso de Phonegap."
       company:
-        name: "UFRJ"
+        name: "BioLogica Sistemas"
         region: "RJ"
       twitter: "zaedysayao"
       github: "javamanrj"
       presentation:
-        title: ""
-        description: ""
+        title: "Desenvolvendo aplicações Desktop com HTML5, CSS3 e JS"
+        description: "HTML5 vem cada dia mais crescendo e sendo usado tanto para sites, como para aplicações mobile. Na palestra veremos uma nova vertente, como desenvolver aplicações desktop com o uso de html5. Ainda, veremos como aproveitar o mesmo código para sites, aplicações mobile e desktop."
         time: ""
     # ,
     #   name: "Zeno Rocha"

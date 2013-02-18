@@ -53,14 +53,14 @@ module.exports =
     ,
       name: "Almir Filho"
       photo: "almir.jpg"
-      bio: "Bloga no @loopinfinito e trabalha na @globocom"
+      bio: ""
       company:
         name: "Globo.com"
         region: "RJ"
       twitter: "almirfilho"
       github: "almirfilho"
       presentation:
-        title: "Dissecando o Web Dev Tools"
+        title: ""
         description: ""
         time: ""
     ,
@@ -79,17 +79,17 @@ module.exports =
     ,
       name: "Caio Gondim"
       photo: "caio.jpg"
-      bio: ""
+      bio: "Bloga no @loopinfinito e trabalha na @globocom"
       company:
         name: "Globo.com"
         region: "RJ"
       twitter: "caio_gondim"
       github: "caiogondim"
       presentation:
-        title: ""
+        title: "Dissecando o Web Dev Tools"
         description: ""
         time: ""
-    , 
+    ,
       name: "Fellyph Cintra"
       photo: "fellyph.jpg"
       bio: ""

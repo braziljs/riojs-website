@@ -152,6 +152,10 @@ module.exports =
 
     # List of Partners
     partners: [
+      name: "Braziljs"
+      logo: "braziljs.png"
+      url: "http://braziljs.org"
+    ,
       name: "Novatec"
       logo: "novatec.png"
       url: "http://novatec.com.br"

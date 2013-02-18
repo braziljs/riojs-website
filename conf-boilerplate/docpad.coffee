@@ -184,4 +184,8 @@ module.exports =
       name: "Eventick"
       logo: "eventick.png"
       url: "http://eventick.com.br"
+    ,
+      name: "Abradi RJ"
+      logo: "abradi.png"
+      url: "http://www.abradirj.com.br/"
     ]

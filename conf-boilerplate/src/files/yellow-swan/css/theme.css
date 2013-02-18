@@ -184,7 +184,7 @@ h6 {
    PARTNERS
    ========================================================================== */
 .content .partners {
-  min-height: 657px;
+  min-height: 590px;
 }
 /* =============================================================================
    LOCATION
@@ -227,6 +227,7 @@ h6 {
 .speakers,
 .partners {
   background: url(../img/sobre_bg.gif);
+  padding-bottom: 50px;
 }
 .section-title {
   color: rgba(255, 128, 0, 0.8);

@@ -89,6 +89,19 @@ module.exports =
         title: ""
         description: ""
         time: ""
+    , 
+      name: "Fellyph Cintra"
+      photo: "fellyph.jpg"
+      bio: ""
+      company:
+        name: "UOL"
+        region: "SP"
+      twitter: "fellyph"
+      github: "fellyph"
+      presentation:
+        title: ""
+        description: ""
+        time: ""
     ,
       name: "Leo Balter"
       photo: "balter.jpg"

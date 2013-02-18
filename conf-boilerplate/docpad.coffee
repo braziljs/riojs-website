@@ -32,7 +32,7 @@ module.exports =
       'location'
       # 'schedule'
       # 'sponsors'
-      # 'partners'
+      'partners'
       # 'contact'
     ]
 
@@ -54,7 +54,9 @@ module.exports =
       name: "Almir Filho"
       photo: "almir.jpg"
       bio: ""
-      company: "Globo.com (RJ)"
+      company:
+        name: "Globo.com"
+        region: "RJ"
       twitter: "almirfilho"
       github: "almirfilho"
       presentation:
@@ -65,7 +67,9 @@ module.exports =
       name: "Bernard De Luna"
       photo: "luna.jpg"
       bio: ""
-      company: "Estante Virtual (RJ)"
+      company:
+        name: "Estante Virtual"
+        region: "RJ"
       twitter: "bernarddeluna"
       github: "bernarddeluna"
       presentation:
@@ -75,21 +79,25 @@ module.exports =
     ,
       name: "Caio Gondim"
       photo: "caio.jpg"
-      bio: ""
-      company: "Globo.com (RJ)"
+      bio: "Bloga no @loopinfinito e trabalha na @globocom"
+      company:
+        name: "Globo.com"
+        region: "RJ"
       twitter: "caio_gondim"
       github: "caiogondim"
       presentation:
-        title: ""
+        title: "Dissecando o Web Dev Tools"
         description: ""
         time: ""
     ,
-      name: "Ciro Nunes"
-      photo: "ciro.jpg"
+      name: "Fellyph Cintra"
+      photo: "fellyph.jpg"
       bio: ""
-      company: "Kanui (SP)"
-      twitter: "cironunesdev"
-      github: "cironunes"
+      company:
+        name: "UOL"
+        region: "SP"
+      twitter: "fellyph"
+      github: "fellyph"
       presentation:
         title: ""
         description: ""
@@ -98,7 +106,9 @@ module.exports =
       name: "Leo Balter"
       photo: "balter.jpg"
       bio: ""
-      company: "Estante Virtual (RJ)"
+      company:
+        name: "Estante Virtual"
+        region: "RJ"
       twitter: "leobalter"
       github: "leobalter"
       presentation:
@@ -108,36 +118,42 @@ module.exports =
     ,
       name: "Leo Beto Souza"
       photo: "leobeto.jpg"
-      bio: ""
-      company: "Homem Máquina (RJ)"
+      bio: "Leobetosouza se diverte com front-end desde a virada do milênio quando ninguém chamava de front-end e JavaScript só servia pra irritar o usuário. Já foi sobrinho. Já fez sites com tabelas e usou space.gif, bgsound e marquee. Fez scripts pra escrever mensagens na barra de status e de textos que seguiam o mouse. Abusou de framesets, gifs animados e escreveu o redapé de várias páginas 'Melhor visualizado no Internet Explorer 4.x com resolução de 800x600px'. Graças a Deus esse tempo ficou pra trás e hoje ele estuda Sistemas de Informação na UFF e codifica interfaces usáveis na Homem Máquina."
+      company:
+        name: "Homem Máquina"
+        region: "RJ"
       twitter: "leobetosouza"
       github: "leobetosouza"
       presentation:
-        title: ""
-        description: ""
-        time: ""
+        title: "À Definir"
+        description: "Algo que não vai mudar o mundo, mas pode fazer a sua vida mais legal."
+        time: "17h00"
     ,
       name: "Zaedy Sayão"
       photo: "zaedy.jpg"
-      bio: ""
-      company: "UFRJ (RJ)"
+      bio: "É especialista em aplicações RIA com uso do Ext e Sencha Touch. Graduando em Ciência da Computação pela UFRJ, é aderente aos movimentos ágeis e de modelos como o Mps.Br, trabalhando com PHP há mais de 6 anos e com Java há mais 10 anos. Desenvolve aplicações mobile em iOS, Android, BB10 e WP8, tanto nativo como em HTML5, sendo especialista no uso de Phonegap."
+      company:
+        name: "BioLogica Sistemas"
+        region: "RJ"
       twitter: "zaedysayao"
       github: "javamanrj"
+      presentation:
+        title: "Desenvolvendo aplicações Desktop com HTML5, CSS3 e JS"
+        description: "HTML5 vem cada dia mais crescendo e sendo usado tanto para sites, como para aplicações mobile. Na palestra veremos uma nova vertente, como desenvolver aplicações desktop com o uso de html5. Ainda, veremos como aproveitar o mesmo código para sites, aplicações mobile e desktop."
+        time: ""
+    ,
+      name: "Zeno Rocha"
+      photo: "zeno.jpg"
+      bio: ""
+      company:
+         name: "Liferay"
+         region: "RJ"
+      twitter: "zenorocha"
+      github: "zenorocha"
       presentation:
         title: ""
         description: ""
         time: ""
-    # ,
-    #   name: "Zeno Rocha"
-    #   photo: "zeno.jpg"
-    #   bio: ""
-    #   company: "Liferay (RJ)"
-    #   twitter: "zenorocha"
-    #   github: "zenorocha"
-    #   presentation:
-    #     title: "Why do I prefer Android over iPhone"
-    #     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #     time: "17h00"
     ]
 
     # List of Sponsors
@@ -149,7 +165,23 @@ module.exports =
 
     # List of Partners
     partners: [
-      name: "BrazilJS"
-      logo: "http://f.cl.ly/items/2N3i2W0X2f3c2g2Z2N0f/Untitled-1.png"
+      name: "Braziljs"
+      logo: "braziljs.png"
       url: "http://braziljs.org"
+    ,
+      name: "Unirio"
+      logo: "unirio.png"
+      url: "http://www.unirio.br/"
+    ,
+      name: "Novatec"
+      logo: "novatec.png"
+      url: "http://novatec.com.br"
+    ,
+      name: "Arteccom"
+      logo: "arteccom.png"
+      url: "http://arteccom.com.br"
+    ,
+      name: "Eventick"
+      logo: "eventick.png"
+      url: "http://eventick.com.br"
     ]

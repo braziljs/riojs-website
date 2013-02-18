@@ -86,8 +86,8 @@ module.exports =
       twitter: "caio_gondim"
       github: "caiogondim"
       presentation:
-        title: "Dissecando o Web Dev Tools"
-        description: ""
+        title: "Dissecando sua aplicação com Chrome Dev Tools"
+        description: "Vamos abrir sua app ao meio e analisar de forma minunciosa toda sua anatomia"
         time: ""
     ,
       name: "Fellyph Cintra"

@@ -163,4 +163,12 @@ module.exports =
       name: "Novatec"
       logo: "novatec.png"
       url: "http://novatec.com.br"
+    ,
+      name: "Arteccom"
+      logo: "arteccom.png"
+      url: "http://arteccom.com.br"
+    ,
+      name: "Eventick"
+      logo: "eventick.png"
+      url: "http://eventick.com.br"
     ]

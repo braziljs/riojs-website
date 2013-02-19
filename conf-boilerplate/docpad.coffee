@@ -210,4 +210,8 @@ module.exports =
       name: "Abradi RJ"
       logo: "abradi.png"
       url: "http://www.abradirj.com.br/"
+    ,
+      name: "Kolaborativa"
+      logo: "kolaborativa.png"
+      url: "http://kolaborativa.com"
     ]

@@ -272,6 +272,29 @@ h6 {
 .speakers-item .presentation {
   display: none;
 }
+.speakers-item:hover .presentation {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+  display: block;
+  height: 200px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 400px;
+  z-index: 20;
+}
+.speakers-item .presentation-title {
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 20px 10px 20px;
+  text-transform: uppercase;
+}
+.speakers-item .presentation-description {
+  text-transform: uppercase;
+  font-size: 10px;
+  padding: 0px 20px;
+  color: #aaa;
+}
 .speakers-item .speakers-bio {
   bottom: 0;
   color: #fff;
@@ -341,9 +364,9 @@ h6 {
 }
 .speakers-item .social {
   position: absolute;
-  z-index: 10;
-  right: 20px;
-  top: 59px;
+  z-index: 30;
+  left: 20px;
+  top: 15px;
 }
 /* =============================================================================
    SCHEDULE

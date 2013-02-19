@@ -13,6 +13,9 @@
       <hgroup class="speech-title">
         <h3 itemprop="name" class="speaker-name"><%= speaker.name %></h3>
         <h4 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" class="company">
+          <% if speaker.role: %>
+              <span itemprop="role"><%= speaker.role %></span><br>
+          <% end %>
           <span itemprop="name"><%= speaker.company.name %></span>
           <span itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
             (<span itemprop="addressRegion"><%= speaker.company.region %></span>)
@@ -22,7 +25,12 @@
 
       <div class="presentation">
         <% if speaker.presentation.title: %>
-          <span><%= speaker.presentation.title %></span>
+          <p class="presentation-title">
+            <%= speaker.presentation.title %>
+          </p>
+          <p class="presentation-description">
+            <%= speaker.presentation.description %>
+          </p>
         <% end %>
         <% if speaker.presentation.time: %>
           <span class="speech-bullet"></span>

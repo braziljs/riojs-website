@@ -53,6 +53,7 @@ module.exports =
     ,
       name: "Almir Filho"
       photo: "almir.jpg"
+      role: "front-end engineer"
       bio: ""
       company:
         name: "Globo.com"
@@ -60,12 +61,13 @@ module.exports =
       twitter: "almirfilho"
       github: "almirfilho"
       presentation:
-        title: ""
+        title: "Tema a Definir"
         description: ""
         time: ""
     ,
       name: "Bernard De Luna"
       photo: "luna.jpg"
+      role: "Coordenador de Produto"
       bio: ""
       company:
         name: "Estante Virtual"
@@ -73,12 +75,13 @@ module.exports =
       twitter: "bernarddeluna"
       github: "bernarddeluna"
       presentation:
-        title: ""
+        title: "Tema a Definir"
         description: ""
         time: ""
     ,
       name: "Caio Gondim"
       photo: "caio.jpg"
+      role: "front-end engineer"
       bio: "Bloga no @loopinfinito e trabalha na @globocom"
       company:
         name: "Globo.com"
@@ -92,6 +95,7 @@ module.exports =
     ,
       name: "Fellyph Cintra"
       photo: "fellyph.jpg"
+      role: "front-end engineer"
       bio: ""
       company:
         name: "UOL"
@@ -99,12 +103,27 @@ module.exports =
       twitter: "fellyph"
       github: "fellyph"
       presentation:
-        title: ""
+        title: "Tema a Definir"
+        description: ""
+        time: ""
+    ,
+      name: "Jaydson Gomes"
+      photo: "jaydson.jpg"
+      role: "front-end engineer"
+      bio: ""
+      company:
+        name: "TERRA"
+        region: "RS"
+      twitter: "jaydson"
+      github: "jaydson"
+      presentation:
+        title: "Tema a Definir"
         description: ""
         time: ""
     ,
       name: "Leo Balter"
       photo: "balter.jpg"
+      role: "front-end engineer"
       bio: ""
       company:
         name: "Estante Virtual"
@@ -112,12 +131,13 @@ module.exports =
       twitter: "leobalter"
       github: "leobalter"
       presentation:
-        title: ""
+        title: "Tema a Definir"
         description: ""
         time: ""
     ,
       name: "Leo Beto Souza"
       photo: "leobeto.jpg"
+      role: "front-end engineer"
       bio: "Leobetosouza se diverte com front-end desde a virada do milênio quando ninguém chamava de front-end e JavaScript só servia pra irritar o usuário. Já foi sobrinho. Já fez sites com tabelas e usou space.gif, bgsound e marquee. Fez scripts pra escrever mensagens na barra de status e de textos que seguiam o mouse. Abusou de framesets, gifs animados e escreveu o redapé de várias páginas 'Melhor visualizado no Internet Explorer 4.x com resolução de 800x600px'. Graças a Deus esse tempo ficou pra trás e hoje ele estuda Sistemas de Informação na UFF e codifica interfaces usáveis na Homem Máquina."
       company:
         name: "Homem Máquina"
@@ -125,12 +145,13 @@ module.exports =
       twitter: "leobetosouza"
       github: "leobetosouza"
       presentation:
-        title: "À Definir"
+        title: "Tema a Definir"
         description: "Algo que não vai mudar o mundo, mas pode fazer a sua vida mais legal."
         time: "17h00"
     ,
       name: "Zaedy Sayão"
       photo: "zaedy.jpg"
+      role: "Developer"
       bio: "É especialista em aplicações RIA com uso do Ext e Sencha Touch. Graduando em Ciência da Computação pela UFRJ, é aderente aos movimentos ágeis e de modelos como o Mps.Br, trabalhando com PHP há mais de 6 anos e com Java há mais 10 anos. Desenvolve aplicações mobile em iOS, Android, BB10 e WP8, tanto nativo como em HTML5, sendo especialista no uso de Phonegap."
       company:
         name: "BioLogica Sistemas"
@@ -144,6 +165,7 @@ module.exports =
     ,
       name: "Zeno Rocha"
       photo: "zeno.jpg"
+      role: "front-end engineer"
       bio: ""
       company:
          name: "Liferay"
@@ -151,7 +173,7 @@ module.exports =
       twitter: "zenorocha"
       github: "zenorocha"
       presentation:
-        title: ""
+        title: "Tema a Definir"
         description: ""
         time: ""
     ]

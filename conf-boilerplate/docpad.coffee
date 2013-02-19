@@ -145,7 +145,7 @@ module.exports =
       twitter: "leobetosouza"
       github: "leobetosouza"
       presentation:
-        title: "Tema a Definir"
+        title: "Dominando o seu DOM"
         description: "Algo que não vai mudar o mundo, mas pode fazer a sua vida mais legal."
         time: "17h00"
     ,

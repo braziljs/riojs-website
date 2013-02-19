@@ -286,8 +286,9 @@ h6 {
 .speakers-item .presentation-title {
   color: #fff;
   font-size: 15px;
-  padding: 5px 20px 10px 20px;
+  padding: 5px 20px 10px 40px;
   text-transform: uppercase;
+  width: 340px;
 }
 .speakers-item .presentation-description {
   text-transform: uppercase;
@@ -442,6 +443,21 @@ h6 {
 .form textarea:focus {
   border-color: #aaa;
   outline: 0;
+}
+.footer .author {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  display: block;
+
+  -moz-transition: background-color 2s;
+  -webkit-transition: background-color 2s;
+  -o-transition: background-color 2s;
+  transition: background-color 2s;
+}
+.footer .author:hover {
+  background: rgba(255, 128, 0, 0.8)
 }
 /* =============================================================================
    Media Queries

@@ -28,7 +28,7 @@
   <link rel="stylesheet" type="text/css" href="<%= @site.theme %>/css/theme.css">
   <!-- / STYLES -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,100' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'> -->
 
 </head>
 <body id="topo">
@@ -45,7 +45,9 @@
     <!-- / CONTENT -->
 
     <!-- FOOTER -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <a href="http://julianamalta.com" class="author">design by Juliana Malta</a>
+    </footer>
     <!-- / FOOTER -->
 
   </div>

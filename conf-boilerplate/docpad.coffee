@@ -75,7 +75,7 @@ module.exports =
       twitter: "bernarddeluna"
       github: "bernarddeluna"
       presentation:
-        title: "Tema a Definir"
+        title: "Atenção, dev no palco!"
         description: ""
         time: ""
     ,

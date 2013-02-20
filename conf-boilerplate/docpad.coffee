@@ -54,15 +54,15 @@ module.exports =
       name: "Almir Filho"
       photo: "almir.jpg"
       role: "front-end engineer"
-      bio: ""
+      bio: "Co-fundador do blog Loop Infinito, desenvolvedor na Globo.com e mestrando em Ciência da Computação."
       company:
         name: "Globo.com"
         region: "RJ"
       twitter: "almirfilho"
       github: "almirfilho"
       presentation:
-        title: "Tema a Definir"
-        description: ""
+        title: "Web Audio Hero"
+        description: "Desvendaremos esta nova API de alto nível para processamento e sintetização de audio em aplicações web: Web Audio API – que nos permirá quebrar o silêncio da Web sem limitações."
         time: ""
     ,
       name: "Bernard De Luna"

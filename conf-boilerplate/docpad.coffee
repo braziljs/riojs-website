@@ -163,6 +163,20 @@ module.exports =
         description: "Algo que não vai mudar o mundo, mas pode fazer a sua vida mais legal."
         time: "17h00"
     ,
+      name: "Rafael Martins"
+      photo: "cabra.jpg"
+      role: "software engineer"
+      bio: "Desenvolvedor apaixonado, programador poliglota, mais de 8 anos de experiência, de desktop a web, de asp a rails, de server-side de alta performance a interfaces ricas. Atualmente trabalhando na globo.com na área de esportes. :D"
+      company:
+        name: "Globo.com"
+        region: "RJ"
+      twitter: "rafael_mws"
+      github: "rafaelmws"
+      presentation:
+        title: "Testes com Javascript, acredita que é fácil?"
+        description: ""
+        time: "17h00"
+    ,
       name: "Zaedy Sayão"
       photo: "zaedy.jpg"
       role: "Developer"

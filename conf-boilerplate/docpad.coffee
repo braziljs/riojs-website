@@ -146,7 +146,7 @@ module.exports =
       github: "leobalter"
       presentation:
         title: "Guia de Sobrevivência JS Open Source"
-        description: "Como se proteger para que seu JS não comece um ataque zumbi em sites de terceiros. Veja também O que é necessário pra ter seu JS publicado e como fazer que ele seja utilizado por várias pessoas. Blinde-se com o novo esquema de publicação de plugins jQuery e conheça os macetes para agilizar esse processo e não se parecer um morto vivo."
+        description: "Como publicar JS para terceiros de forma correta, de bônus veja como publicar plugins de jQuery em seu repositório oficial."
         time: "1"
     ,
       name: "Leo Beto Souza"

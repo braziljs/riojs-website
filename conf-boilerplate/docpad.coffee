@@ -137,17 +137,17 @@ module.exports =
     ,
       name: "Leo Balter"
       photo: "balter.jpg"
-      role: "front-end engineer"
-      bio: ""
+      role: "desenvolvedor JS"
+      bio: "Formado em Direito, Leo Balter é desenvolvedor JS por diversão. Porém, ele é pago para se divertir. Ele acha que tudo está incompleto enquanto não há testes, assim como pira quando um erro em seu código faz todo o sistema dançar o Harlem Shake. Nas horas vagas ele toca guitarra e joga video game."
       company:
         name: "Estante Virtual"
         region: "RJ"
       twitter: "leobalter"
       github: "leobalter"
       presentation:
-        title: "Tema a Definir"
-        description: ""
-        time: ""
+        title: "Guia de Sobrevivência JS Open Source"
+        description: "Como se proteger para que seu JS não comece um ataque zumbi em sites de terceiros. Veja também O que é necessário pra ter seu JS publicado e como fazer que ele seja utilizado por várias pessoas. Blinde-se com o novo esquema de publicação de plugins jQuery e conheça os macetes para agilizar esse processo e não se parecer um morto vivo."
+        time: "1"
     ,
       name: "Leo Beto Souza"
       photo: "leobeto.jpg"

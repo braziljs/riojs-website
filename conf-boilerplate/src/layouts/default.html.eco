@@ -28,7 +28,7 @@
   <link rel="stylesheet" type="text/css" href="<%= @site.theme %>/css/theme.css">
   <!-- / STYLES -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,100' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'> -->
 
 </head>
 <body id="topo">
@@ -45,18 +45,22 @@
     <!-- / CONTENT -->
 
     <!-- FOOTER -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <a href="http://julianamalta.com" class="author">design by Juliana Malta</a>
+    </footer>
     <!-- / FOOTER -->
 
   </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="<%= @site.theme %>/js/jquery-1.8.3.min.js"><\/script>')</script>
-  <script src="<%= @site.theme %>/js/main.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" defer></script>
+  <script>
+    window.jQuery || document.write('<script src="<%= @site.theme %>/js/jquery-1.8.3.min.js"><\/script>')
+  </script>
+  <script src="<%= @site.theme %>/js/main.js" defer></script>
 
   <% if @conf.address != '': %>
   <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-  <script src="<%= @site.theme %>/js/map.js"></script>
+  <script src="<%= @site.theme %>/js/map.js" defer></script>
   <% end %>
 
   <!-- GOOGLE ANALYTICS -->
@@ -72,6 +76,5 @@
       })();
   </script>
   <!-- /GOOGLE ANALYTICS -->
-
 </body>
 </html>

@@ -38,7 +38,7 @@ var _scrollTop = function() {
       var $headerWrapper = $('#header').find('.wrapper');
       var headerWrapperTop = $headerWrapper.offset().top;
       // um frame = 16ms. usamos 10ms para ficar um pouco acima de 60 FPS
-      var wait = 10;
+      var wait = 16;
 
       // retorna uma função que, caso seja invocada repetidamente, irá disparar
       // apenas uma vez dentro do tempo informado em @wait

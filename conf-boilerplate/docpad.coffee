@@ -107,6 +107,20 @@ module.exports =
         description: ""
         time: ""
     ,
+      name: "Filipe Cunha & João Felipe"
+      photo: "bb.jpg"
+      role: "devs"
+      bio: ""
+      company:
+        name: "Globoesporte & Petrobras"
+        region: "RJ"
+      twitter: "fellyph"
+      github: "fellyph"
+      presentation:
+        title: "Desenvolvendo aplicações para BlackBerry 10"
+        description: "Vamos apresentar a plataforma BlackBerry 10 (BB10), demonstrando o apoio ao desenvolvedor. Técnicas de desenvolvimento apresentando o Webworks, AliceJS, BBUI, jQuery e todas ferramentas disponiveis."
+        time: ""
+    ,
       name: "Jaydson Gomes"
       photo: "jaydson.jpg"
       role: "front-end engineer"

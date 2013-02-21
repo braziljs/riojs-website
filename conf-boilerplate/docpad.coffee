@@ -31,7 +31,7 @@ module.exports =
       'speakers'
       'location'
       # 'schedule'
-      # 'sponsors'
+      'sponsors'
       'partners'
       # 'contact'
     ]
@@ -42,7 +42,7 @@ module.exports =
       location: "local"
       speakers: "Palestrantes"
       schedule: "Schedule"
-      sponsors: "Sponsors"
+      sponsors: "Patrocinadores"
       partners: "Apoio"
       contact: "Contact"
 
@@ -208,9 +208,13 @@ module.exports =
 
     # List of Sponsors
     sponsors: [
-      name: "Eventick"
-      logo: "http://f.cl.ly/items/1U3p0Z0e2w0I1i3z1X22/Image%202012.09.25%203:00:58%20PM.png"
-      url: "http://eventick.com.br"
+      name: "Globo.com"
+      logo: "globo.png"
+      url: "http://globo.com/"
+    ,
+      name: "Contabilidade e consultoria"
+      logo: "lcr.png"
+      url: "http://www.lcrcontabilidade.com/"
     ]
 
     # List of Partners

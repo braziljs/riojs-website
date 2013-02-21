@@ -278,6 +278,7 @@ h6 {
   height: 200px;
   left: 10px;
   position: absolute;
+  text-align: left;
   top: 10px;
   width: 400px;
   z-index: 20;
@@ -285,15 +286,15 @@ h6 {
 .speakers-item .presentation-title {
   color: #fff;
   font-size: 15px;
-  padding: 5px 20px 10px 40px;
+  padding: 10px 20px 0 20px;
   text-transform: uppercase;
   width: 340px;
 }
 .speakers-item .presentation-description {
   text-transform: uppercase;
   font-size: 10px;
-  padding: 0px 20px 0px 40px;
-  color: #aaa;
+  padding: 0px 40px 0px 20px;
+  color: #bbb;
 }
 .speakers-item .speakers-bio {
   bottom: 0;
@@ -364,9 +365,9 @@ h6 {
 }
 .speakers-item .social {
   position: absolute;
+  right: 20px;
+  top: 80px;
   z-index: 30;
-  left: 20px;
-  top: 75px;
 }
 /* =============================================================================
    SCHEDULE

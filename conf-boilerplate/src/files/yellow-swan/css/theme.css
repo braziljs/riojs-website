@@ -528,6 +528,9 @@ h6 {
   .speakers-item:nth-child(even) {
     float: none;
   }
+  .speakers-item .presentation {
+    border-radius: 0;
+  }
   .speech-title {
     font-weight: bolder;
   }

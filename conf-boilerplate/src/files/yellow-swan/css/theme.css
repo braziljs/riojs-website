@@ -274,6 +274,10 @@ h6 {
   float: right;
 }
 .speakers-item:hover .speaker-photo .photo {
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
   transition: 0.6s;
 }
 .speakers-item .presentation {
@@ -285,9 +289,11 @@ h6 {
   top: 10px;
   width: 400px;
   z-index: 20;
-  -webkit-transition-property: all;
-  -webkit-transition-duration: .5s;
-  -webkit-transition-timing-function: linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .speakers-item:nth-child(even) .presentation{
   left: 400px;
@@ -392,9 +398,10 @@ h6 {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
   position: relative;
 }
-.partner-item {
+.partner-item,
+.sponsor-item {
   margin: 10px 18px 30px 19px;
-  position: relative;
+  /*position: relative;*/
 }
 .sponsor-link:hover,
 .sponsor-link:focus,
@@ -424,8 +431,8 @@ h6 {
   text-transform: uppercase;
   color: #333;
   display: block;
-  -moz-transition: background-color 2s;
   -webkit-transition: background-color 2s;
+  -moz-transition: background-color 2s;
   -o-transition: background-color 2s;
   transition: background-color 2s;
 }

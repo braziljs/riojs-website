@@ -78,6 +78,12 @@ h6 {
   background-size: 100% 100%;
   position: relative;
 }
+.header .wrapper {
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+
+}
 .header .details {
   font-family: 'Open Sans', sans-serif;
   position: absolute;

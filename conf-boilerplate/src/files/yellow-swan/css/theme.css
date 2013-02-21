@@ -256,8 +256,10 @@ h6 {
 }
 .speakers-item {
   text-align: right;
-  padding: 10px;
+  padding: 10px 0;
   float: left;
+  overflow: hidden;
+  margin: 10px 0;
 }
 .speakers-item:nth-child(odd) {
   margin-left: 0px;
@@ -269,18 +271,23 @@ h6 {
   transition: 0.6s;
 }
 .speakers-item .presentation {
-  display: none;
-}
-.speakers-item:hover .presentation {
   background: rgba(0, 0, 0, 0.9);
   border-radius: 5px;
-  display: block;
   height: 200px;
-  left: 10px;
+  left: -400px;
   position: absolute;
   top: 10px;
   width: 400px;
   z-index: 20;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: .5s;
+  -webkit-transition-timing-function: linear;
+}
+.speakers-item:nth-child(even) .presentation{
+  left: 400px;
+}
+.speakers-item:hover .presentation {
+  left: 0;
 }
 .speakers-item .presentation-title {
   color: #fff;

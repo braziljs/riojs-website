@@ -376,7 +376,6 @@ h6 {
   top: 80px;
   z-index: 30;
 }
-
 /* =============================================================================
    SPONSORS
    ========================================================================== */
@@ -385,9 +384,11 @@ h6 {
   background: #fff;
   border: 1px solid #ccc;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  position: relative;
 }
 .partner-item {
   margin: 10px 18px 30px 19px;
+  position: relative;
 }
 .sponsor-link:hover,
 .sponsor-link:focus,
@@ -395,30 +396,28 @@ h6 {
 .partner-link:focus {
   border-color: #f0a303;
 }
+.sponsor-type {
+  color: #333;
+  display: block;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 5px;
+  width: 100%;
+  font-weight: bold;
+  z-index: 10;
+  line-height: 20px;
+}
 /* =============================================================================
-   CONTACT
+   FOOTER
    ========================================================================== */
-.form input[type=text],
-.form input[type=email],
-.form textarea {
-  color: #777;
-  border: 1px solid #e7e7e7;
-  background: #fff;
-  border-radius: 4px;
-}
-.form input[type=text]:focus,
-.form input[type=email]:focus,
-.form textarea:focus {
-  border-color: #aaa;
-  outline: 0;
-}
 .footer .author {
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
   color: #333;
   display: block;
-
   -moz-transition: background-color 2s;
   -webkit-transition: background-color 2s;
   -o-transition: background-color 2s;

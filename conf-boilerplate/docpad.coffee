@@ -114,8 +114,8 @@ module.exports =
       company:
         name: "Globoesporte & Petrobras"
         region: "RJ"
-      twitter: "fellyph"
-      github: "fellyph"
+      twitter: "jotaefe"
+      github: "jotaefe"
       presentation:
         title: "Desenvolvendo aplicações para BlackBerry 10"
         description: "Vamos apresentar a plataforma BlackBerry 10 (BB10), demonstrando o apoio ao desenvolvedor. Técnicas de desenvolvimento apresentando o Webworks, AliceJS, BBUI, jQuery e todas ferramentas disponiveis."

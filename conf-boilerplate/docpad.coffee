@@ -30,7 +30,6 @@ module.exports =
       # 'about'
       'speakers'
       'location'
-      # 'schedule'
       'sponsors'
       'partners'
       # 'contact'
@@ -210,10 +209,12 @@ module.exports =
     sponsors: [
       name: "Globo.com"
       logo: "globo.png"
+      type: "diamante"
       url: "http://globo.com/"
     ,
       name: "Contabilidade e consultoria"
       logo: "lcr.png"
+      type: "prata"
       url: "http://www.lcrcontabilidade.com/"
     ]
 

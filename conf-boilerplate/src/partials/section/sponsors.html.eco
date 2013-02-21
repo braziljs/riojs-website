@@ -4,8 +4,8 @@
 
   <% for sponsor in @sponsors: %>
     <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-      <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url">
-        <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
+      <a href="<%= sponsor.url %>" class="sponsor-logo sponsor-link" itemprop="url" target="_blank">
+        <img src="yellow-swan/img/<%= sponsor.logo %>" alt="<%= sponsor.name %>" class="photo" itemprop="image">
       </a>
     </li>
   <% end %>

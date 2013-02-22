@@ -11,7 +11,7 @@
     </li>
   <% end %>
     <li class="sponsor-item">
-      <a class="sponsor-logo sponsor-link sponsor-call" href="#">
+      <a class="sponsor-logo sponsor-link sponsor-call" href="https://www.dropbox.com/s/r4qwys1u2eppi83/midia-kit-riojs.pdf" target="_blank">
       	<img src="<%= @site.theme %>/img/your-logo.jpg" alt="your logo" class="photo">
       </a>
     </li>

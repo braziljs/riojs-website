@@ -212,10 +212,20 @@ module.exports =
       type: "diamante"
       url: "http://globo.com/"
     ,
+      name: "JDigital"
+      logo: "caelum.gif"
+      type: "Ouro"
+      url: "http://www.jdcom.com.br/"
+    ,
       name: "Contabilidade e consultoria"
       logo: "lcr.png"
       type: "prata"
       url: "http://www.lcrcontabilidade.com/"
+    ,
+      name: "JDigital"
+      logo: "jdcom.gif"
+      type: "bronze"
+      url: "http://www.jdcom.com.br/"
     ]
 
     # List of Partners

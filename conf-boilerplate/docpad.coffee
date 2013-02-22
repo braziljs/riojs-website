@@ -212,10 +212,10 @@ module.exports =
       type: "diamante"
       url: "http://globo.com/"
     ,
-      name: "JDigital"
+      name: "Caelum"
       logo: "caelum.gif"
       type: "Ouro"
-      url: "http://www.jdcom.com.br/"
+      url: "http://www.caelum.com.br/"
     ,
       name: "Contabilidade e consultoria"
       logo: "lcr.png"

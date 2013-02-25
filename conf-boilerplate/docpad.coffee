@@ -50,6 +50,20 @@ module.exports =
       name: "Check-in / Breakfast"
       time: "8h30"
     ,
+      name: "Alexandre Gaigalas"
+      photo: "gaigalas.jpg"
+      role: "software engineer"
+      bio: "Sofware engineer no Yahoo!."
+      company:
+        name: "Yahoo"
+        region: "SP"
+      twitter: "alganet"
+      github: "alganet"
+      presentation:
+        title: "Tema a Definir"
+        description: ""
+        time: ""
+    ,
       name: "Almir Filho"
       photo: "almir.jpg"
       role: "front-end engineer"

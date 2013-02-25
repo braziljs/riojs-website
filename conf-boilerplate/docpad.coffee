@@ -137,16 +137,16 @@ module.exports =
       name: "Jaydson Gomes"
       photo: "jaydson.jpg"
       role: "front-end engineer"
-      bio: ""
+      bio: "Entusiasta JavaScript - FrontEnd Engineer no Terra Networks - Curador do BrazilJS e do RSJS"
       company:
         name: "TERRA"
         region: "RS"
       twitter: "jaydson"
       github: "jaydson"
       presentation:
-        title: "Tema a Definir"
-        description: ""
-        time: ""
+        title: "JavaScript Everywhere"
+        description: "Ano: 2013. A linguagem JavaScript se espalhou como vírus. A humanidade está infectada. Não existe possibilidade remota de cura. O JavaScript está em todos os lugares. PC's, Servidores, Celulares, Robôs, Espaçonaves, Geladeiras, Torradeiras e onde você menos imagina."
+        time: "1"
     ,
       name: "Leo Balter"
       photo: "balter.jpg"

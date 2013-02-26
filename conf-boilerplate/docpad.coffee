@@ -116,8 +116,8 @@ module.exports =
       twitter: "fellyph"
       github: "fellyph"
       presentation:
-        title: "Tema a Definir"
-        description: ""
+        title: "Fazendo a coisa acontecer"
+        description: "Analisando as mudanças do mercado e o comportamento dos desenvolvedores. Como buscar soluções através de ferramentas do seu dia-a-dia e ter destaque no mercado atual."
         time: ""
     ,
       name: "Filipe Cunha & João Felipe"

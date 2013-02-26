@@ -75,7 +75,7 @@ module.exports =
       github: "almirfilho"
       presentation:
         title: "Web Audio Hero"
-        description: "Desvendaremos esta nova API de alto nível para processamento e sintetização de audio em aplicações web: Web Audio API – que nos permirá quebrar o silêncio da Web sem limitações."
+        description: "Desvendaremos esta nova API de alto nível para processamento e sintetização de audio em aplicações web: Web Audio API – que nos permitirá quebrar o silêncio da Web sem limitações."
         time: ""
     ,
       name: "Bernard De Luna"

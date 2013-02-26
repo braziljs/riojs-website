@@ -231,6 +231,11 @@ module.exports =
       type: "Ouro"
       url: "http://www.caelum.com.br/"
     ,
+      name: "iLearn"
+      logo: "ilearn.png"
+      type: "Ouro"
+      url: "http://www.ilearn.com.br"
+    ,
       name: "Contabilidade e consultoria"
       logo: "lcr.png"
       type: "prata"

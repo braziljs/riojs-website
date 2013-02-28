@@ -241,6 +241,11 @@ module.exports =
       type: "prata"
       url: "http://www.lcrcontabilidade.com/"
     ,
+      name: "Wakanda"
+      logo: "wakanda.png"
+      type: "prata"
+      url: "http://www.wakanda.org/"
+    ,
       name: "JDigital"
       logo: "jdcom.gif"
       type: "bronze"

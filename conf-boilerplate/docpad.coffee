@@ -281,4 +281,8 @@ module.exports =
       name: "Kolaborativa"
       logo: "kolaborativa.png"
       url: "http://kolaborativa.com"
+    ,
+      name: "He:labs"
+      logo: "helabs.png"
+      url: "http://helabs.com.br/"
     ]

@@ -78,6 +78,20 @@ module.exports =
         description: "Desvendaremos esta nova API de alto nível para processamento e sintetização de audio em aplicações web: Web Audio API – que nos permitirá quebrar o silêncio da Web sem limitações."
         time: ""
     ,
+      name: "Andre Garzia"
+      photo: "garzia.jpg"
+      role: ""
+      bio: ""
+      company:
+        name: "Comunidade Mozilla Brasil"
+        region: "RJ"
+      twitter: "soapdog"
+      github: "soapdog"
+      presentation:
+        title: "Apresentação do Firefox OS para desenvolvedores"
+        description: "Vamos conhecer o Firefox OS, o novo sistema operacional feito pela Mozilla onde o javascript é a principal linguagem de programação e aprender o que é necessário para desenvolver open web apps. Empresas como a Sony, ZTE, Alcatel, LG entre outras ja estão desenvolvendo aparelhos com Firefox OS. A Telefonica/Vivo vai lançar os aparelhos esse ano aqui no Brasil."
+        time: ""
+    ,
       name: "Bernard De Luna"
       photo: "luna.jpg"
       role: "Coordenador de Produto"

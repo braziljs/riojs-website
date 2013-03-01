@@ -255,15 +255,15 @@ module.exports =
       type: "prata"
       url: "http://www.lcrcontabilidade.com/"
     ,
+      name: "JDigital"
+      logo: "jdcom.gif"
+      type: "prata"
+      url: "http://www.jdcom.com.br/"
+    ,
       name: "Wakanda"
       logo: "wakanda.png"
       type: "prata"
       url: "http://www.wakanda.org/"
-    ,
-      name: "JDigital"
-      logo: "jdcom.gif"
-      type: "bronze"
-      url: "http://www.jdcom.com.br/"
     ]
 
     # List of Partners

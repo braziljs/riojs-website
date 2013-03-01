@@ -9,10 +9,10 @@
       </a>
     </li>
   <% end %>
-    <li class="partner-item">
-      <a class="partner-logo partner-link partner-call" href="https://www.dropbox.com/s/r4qwys1u2eppi83/midia-kit-riojs.pdf" target="_blank">
+<!--     <li class="partner-item">
+      <a class="partner-logo partner-link partner-call" href="#" target="_blank">
       	<img src="<%= @site.theme %>/img/your-logo.jpg" alt="your logo" class="photo">
       </a>
-    </li>
+    </li> -->
   </ul>
 </div>

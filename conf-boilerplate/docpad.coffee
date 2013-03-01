@@ -10,7 +10,7 @@ module.exports =
       date: "9 Mar 2013"
       price: "R$ 30"
       venue: "Unirio"
-      venueComplete: "Av. Pasteur, 296"
+      venueComplete: "Av. Pasteur, 458"
       address: "Urca"
       city: "Rio de Janeiro"
       state: "RJ"

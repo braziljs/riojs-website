@@ -217,6 +217,20 @@ module.exports =
         title: "A vida além do jQuery"
         description: "Vamos explorar os desafios de criar aplicações de larga escala usando jQuery e outras bibliotecas JavaScript, para então apresentar o YUI3 e AlloyUI."
         time: ""
+    ,
+      name: "Hugo Roque"
+      photo: "hugo.jpg"
+      role: "front-end engineer"
+      bio: "Trabalha há mais de 2 anos na Caelum como desenvolvedor front-end e back-end de aplicações web utilizando principalmente tecnologias relacionadas à Ruby, Java e JavaScript. Entusiasta de software livre, sempre lançando bibliotecas que visam facilitar a vida do desenvolvedor, como: named_parameter e rspec-rails-extra-routing. Fascinado por aprender novas tecnologias está sempre compartilhando seus experimentos e descobertas em seu Blog, Laboratório, Github e Twitter."
+      company:
+         name: "Caelum"
+         region: "RJ"
+      twitter: "hugolnx"
+      github: "hugolnx"
+      presentation:
+        title: "Destruindo com AJAX"
+        description: "Que tal usar AJAX para destruir em usabilidade sem matar a acessibilidade?"
+        time: ""
     ]
 
     # List of Sponsors

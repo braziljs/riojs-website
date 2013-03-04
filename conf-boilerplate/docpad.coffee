@@ -313,4 +313,8 @@ module.exports =
       name: "He:labs"
       logo: "helabs.png"
       url: "http://helabs.com.br/"
+    ,
+      name: "Blackberry"
+      logo: "blackberry.jpg"
+      url: "http://helabs.com.br/"
     ]

@@ -242,8 +242,8 @@ module.exports =
       twitter: "zenorocha"
       github: "zenorocha"
       presentation:
-        title: "A vida além do jQuery"
-        description: "Vamos explorar os desafios de criar aplicações de larga escala usando jQuery e outras bibliotecas JavaScript, para então apresentar o YUI3 e AlloyUI."
+        title: "Como Perder Peso (no browser)"
+        description: "Dicas de performance no client-side!"
         time: ""
     ]
 

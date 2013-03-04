@@ -316,5 +316,5 @@ module.exports =
     ,
       name: "Blackberry"
       logo: "blackberry.jpg"
-      url: "http://helabs.com.br/"
+      url: "http://devblog.blackberry.com/"
     ]

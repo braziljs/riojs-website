@@ -103,7 +103,7 @@ module.exports =
       github: "bernarddeluna"
       presentation:
         title: "Atenção, dev no palco!"
-        description: ""
+        description: "Cada vez mais jovens desenvolvedores estão procurando passar conhecimento para o próximo, e isso é ótimo! Porém, o medo do palco acaba comprometendo o que era para ser um espetáculo. Venha conhecer algumas dicas de como dar um show em suas palestras."
         time: ""
     ,
       name: "Caio Gondim"

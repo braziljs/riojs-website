@@ -45,9 +45,6 @@
         <li>
           <a itemprop="url" href="http://www.github.com/<%= speaker.github %>" title="<%= speaker.github %>" class="sprite github"></a>
         </li>
-        <!--<li>
-          <a href="http://www.facebook.com/<%= speaker.facebook %>" title="Twitter @<%= speaker.facebook %>" class="sprite fb"></a>
-        </li> -->
       </ul>
 
       <p class="speakers-bio">

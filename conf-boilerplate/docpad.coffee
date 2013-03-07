@@ -17,7 +17,7 @@ module.exports =
 
     # Site info
     site:
-      theme: "yellow-swan"
+      theme: "riojs-conf-2013"
       url: "http://riojs.org"
       googleanalytics: "UA-26694649-1"
       images:

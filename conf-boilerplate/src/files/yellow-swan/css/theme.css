@@ -486,23 +486,33 @@ h6 {
   }
   .speaker-photo .photo {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.07);
-    width: 300px;
+    width: 400px;
+    border-radius:0;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
   }
   .speakers-list {
     margin-bottom: 30px;
-    width: 330px;
+    width: 400px;
   }
   .speakers-item {
     display: block;
     float: none;
-    height: 160px;
+    height: auto;
     text-align: center;
+    background:#000;
+    padding:0;
+    border-radius:5px;
+    border:0;
   }
   .speakers-item:nth-child(even) {
     float: none;
   }
   .speakers-item .presentation {
     border-radius: 0;
+    position:static;
+    height:auto;
   }
   .speech-title {
     font-weight: bolder;

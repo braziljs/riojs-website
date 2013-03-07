@@ -60,8 +60,8 @@ module.exports =
       twitter: "alganet"
       github: "alganet"
       presentation:
-        title: "Tema a Definir"
-        description: ""
+        title: "Boas Praticas Funcionam Melhor Juntas"
+        description: "PushState, semântica, progressive enhancement, REST, hipermídia, gerenciamento de conexões, etc. A lista é longa. Separadas, essas boas práticas são normalmente deixadas de lado porque não ajudam muito a produtividade. E juntas?"
         time: ""
     ,
       name: "Almir Filho"
@@ -89,7 +89,7 @@ module.exports =
       github: "soapdog"
       presentation:
         title: "Apresentação do Firefox OS para desenvolvedores"
-        description: "Vamos conhecer o Firefox OS, o novo sistema operacional feito pela Mozilla onde o javascript é a principal linguagem de programação e aprender o que é necessário para desenvolver open web apps. Empresas como a Sony, ZTE, Alcatel, LG entre outras ja estão desenvolvendo aparelhos com Firefox OS. A Telefonica/Vivo vai lançar os aparelhos esse ano aqui no Brasil."
+        description: "Vamos conhecer o Firefox OS, o novo sistema operacional feito pela Mozilla onde o Javascriptcript é a principal linguagem de programação e aprender o que é necessário para desenvolver open web apps. Empresas como a Sony, ZTE, Alcatel, LG entre outras ja estão desenvolvendo aparelhos com Firefox OS. A Telefonica/Vivo vai lançar os aparelhos esse ano aqui no Brasil."
         time: ""
     ,
       name: "Bernard De Luna"
@@ -139,7 +139,7 @@ module.exports =
       role: "devs"
       bio: ""
       company:
-        name: "Globoesporte & Petrobras"
+        name: "GloboeEsporte.com & Petrobras"
         region: "RJ"
       twitter: "jotaefe"
       github: "jotaefe"
@@ -201,13 +201,13 @@ module.exports =
       github: "leobetosouza"
       presentation:
         title: "Dominando o seu DOM"
-        description: "Algo que não vai mudar o mundo, mas pode fazer a sua vida mais legal."
-        time: "17h00"
+        description: "jQuery é muito legal, mas vamo combinar que carregar aquela bibliotéca toda (ou qualquer uma outra) pra fazr coisas simples muitas vezes e um disperdico. Vamos aprender a ser desenvolvedores melhores e brincar com algumas APIs do Document Object Model com VanillaJS e ainda da uma olhadinha no que o futuro nos reserva!"
+        time: ""
     ,
       name: "Rafael Martins"
       photo: "cabra.jpg"
       role: "software engineer"
-      bio: "Desenvolvedor apaixonado, programador poliglota, mais de 8 anos de experiência, de desktop a web, de asp a rails, de server-side de alta performance a interfaces ricas. Atualmente trabalhando na globo.com na área de esportes. :D"
+      bio: "Desenvolvedor apaixonado, programador poliglota, mais de 8 anos de experiência, de desktop a web, de ASP a Rails, de server-side de alta performance a interfaces ricas. Atualmente trabalhando na globo.com na área de esportes. :D"
       company:
         name: "Globo.com"
         region: "RJ"
@@ -216,7 +216,7 @@ module.exports =
       presentation:
         title: "Testes com Javascript, acredita que é fácil?"
         description: ""
-        time: "17h00"
+        time: ""
     ,
       name: "Zaedy Sayão"
       photo: "zaedy.jpg"
@@ -266,17 +266,17 @@ module.exports =
     ,
       name: "Contabilidade e consultoria"
       logo: "lcr.png"
-      type: "prata"
+      type: "Prata"
       url: "http://www.lcrcontabilidade.com/"
     ,
       name: "JDigital"
       logo: "jdcom.gif"
-      type: "prata"
+      type: "Prata"
       url: "http://www.jdcom.com.br/"
     ,
       name: "Wakanda"
       logo: "wakanda.png"
-      type: "prata"
+      type: "Prata"
       url: "http://www.wakanda.org/"
     ]
 

@@ -167,7 +167,7 @@ module.exports =
       role: "front-end engineer"
       bio: "Entusiasta JavaScript - FrontEnd Engineer no Terra Networks - Curador do BrazilJS e do RSJS"
       company:
-        name: "TERRA"
+        name: "Terra"
         region: "RS"
       twitter: "jaydson"
       github: "jaydson"
@@ -192,16 +192,16 @@ module.exports =
     ,
       name: "Leo Beto Souza"
       photo: "leobeto.jpg"
-      role: "front-end engineer"
+      role: "front-end developer e instrutor"
       bio: "Leobetosouza se diverte com front-end desde a virada do milênio quando ninguém chamava de front-end e JavaScript só servia pra irritar o usuário. Já foi sobrinho. Já fez sites com tabelas e usou space.gif, bgsound e marquee. Fez scripts pra escrever mensagens na barra de status e de textos que seguiam o mouse. Abusou de framesets, gifs animados e escreveu o redapé de várias páginas 'Melhor visualizado no Internet Explorer 4.x com resolução de 800x600px'. Graças a Deus esse tempo ficou pra trás e hoje ele estuda Sistemas de Informação na UFF e codifica interfaces usáveis na Homem Máquina."
       company:
-        name: "iLearn/Homem Máquina"
+        name: "Homem Máquina/iLearn"
         region: "RJ"
       twitter: "leobetosouza"
       github: "leobetosouza"
       presentation:
         title: "Dominando o seu DOM"
-        description: "jQuery é muito legal, mas vamo combinar que carregar aquela bibliotéca toda (ou qualquer uma outra) pra fazr coisas simples muitas vezes e um disperdico. Vamos aprender a ser desenvolvedores melhores e brincar com algumas APIs do Document Object Model com VanillaJS e ainda da uma olhadinha no que o futuro nos reserva!"
+        description: "jQuery é muito legal, mas vamo combinar que carregar aquela biblioteca toda (ou qualquer uma outra) pra fazer coisas simples muitas vezes e um disperdico. Vamos aprender a ser desenvolvedores melhores e brincar com algumas APIs do Document Object Model com VanillaJS e ainda da uma olhadinha no que o futuro nos reserva!"
         time: ""
     ,
       name: "Rafael Martins"

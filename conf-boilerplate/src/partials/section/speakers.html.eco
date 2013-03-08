@@ -1,56 +1,70 @@
 <h2 class="section-title"><%= @labels['speakers'] %></h2>
 
+<section class="wrapper rooms">
+  <span class="room">auditório</span>
+  <span class="room">1º andar</span>
+</section>
+
 <ul class="speakers-list">
 <% for speaker in @schedule: %>
-  <% if speaker.presentation: %>
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      <% if speaker.photo: %>
-        <span class="speaker-photo">
-          <img class="photo" src="<%= @site.theme %>/img/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" height="200" width="400" >
+  <% if speaker.name: %>
+      <% if speaker.time: %>
+      <li class="task-item">
+        <span class="speech-time">
+          <%= speaker.time %>
+          <%= speaker.name %>
         </span>
-      <% end %>
 
-      <hgroup class="speech-title">
-        <h3 itemprop="name" class="speaker-name"><%= speaker.name %></h3>
-        <h4 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" class="company">
-          <% if speaker.role: %>
-              <span itemprop="role"><%= speaker.role %></span><br>
+      <% else if speaker.presentation.time: %>
+      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+        <span class="speech-time"><%= speaker.presentation.time %></span>
+
+        <section class="speakers-item-inner">
+          <% if speaker.photo: %>
+            <span class="speaker-photo">
+              <img class="photo" src="<%= @site.theme %>/img/<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image" height="200" width="400">
+            </span>
           <% end %>
-          <span itemprop="name"><%= speaker.company.name %></span>
-          <span itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
-            (<span itemprop="addressRegion"><%= speaker.company.region %></span>)
-          </span>
-        </h4>
-      </hgroup>
 
-      <div class="presentation">
-        <% if speaker.presentation.title: %>
-          <p class="presentation-title">
-            <%= speaker.presentation.title %>
-          </p>
-          <p class="presentation-description">
+          <hgroup class="speech-title">
+            <h3 itemprop="name" class="speaker-name"><%= speaker.name %></h3>
+            <h4 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization" class="company">
+              <% if speaker.role: %>
+                  <span itemprop="role"><%= speaker.role %></span><br>
+              <% end %>
+              <span itemprop="name"><%= speaker.company.name %></span>
+              <span itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+                (<span itemprop="addressRegion"><%= speaker.company.region %></span>)
+              </span>
+            </h4>
+          </hgroup>
+
+          <div class="presentation">
+            <% if speaker.presentation.title: %>
+              <p class="presentation-title">
+                <%= speaker.presentation.title %>
+              </p>
+              <p class="presentation-description">
+                <%= speaker.presentation.description %>
+              </p>
+            <% end %>
+          </div>
+
+          <ul class="social">
+            <li>
+              <a itemprop="url" href="http://www.twitter.com/<%= speaker.twitter %>" title="Twitter @<%= speaker.twitter %>" class="sprite twitter"></a>
+            </li>
+            <li>
+              <a itemprop="url" href="http://www.github.com/<%= speaker.github %>" title="<%= speaker.github %>" class="sprite github"></a>
+            </li>
+          </ul>
+
+          <p class="speakers-bio">
+            <strong class="speakers-name"><%= speaker.presentation.title %></strong><br />
             <%= speaker.presentation.description %>
           </p>
-        <% end %>
-        <% if speaker.presentation.time: %>
-          <span class="speech-bullet"></span>
-          <span class="speech-time"><%= speaker.presentation.time %></span>
-        <% end %>
-      </div>
-
-      <ul class="social">
-        <li>
-          <a itemprop="url" href="http://www.twitter.com/<%= speaker.twitter %>" title="Twitter @<%= speaker.twitter %>" class="sprite twitter"></a>
-        </li>
-        <li>
-          <a itemprop="url" href="http://www.github.com/<%= speaker.github %>" title="<%= speaker.github %>" class="sprite github"></a>
-        </li>
-      </ul>
-
-      <p class="speakers-bio">
-        <strong class="speakers-name"><%= speaker.presentation.title %></strong><br />
-        <%= speaker.presentation.description %>
-      </p>
+        </section>
+      <% end %>
     </li>
   <% end %>
 <% end %>

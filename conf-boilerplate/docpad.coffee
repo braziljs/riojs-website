@@ -17,7 +17,7 @@ module.exports =
 
     # Site info
     site:
-      theme: "riojs-conf-2013"
+      theme: "yellow-swan"
       url: "http://riojs.org"
       googleanalytics: "UA-26694649-1"
       images:
@@ -27,10 +27,12 @@ module.exports =
     # to deactivate comment out with '#'
     # you can also change order here and it will reflect on page
     sections: [
+      # 'about'
       'speakers'
       'location'
       'sponsors'
       'partners'
+      # 'contact'
     ]
 
     # Labels which you can translate to other languages
@@ -45,8 +47,11 @@ module.exports =
 
     # The entire schedule
     schedule: [
-      name: "Check-in / Breakfast"
+      name: "Check-in"
       time: "8h30"
+    ,
+      name: "abertura"
+      time: "9h00"
     ,
       name: "Caio Gondim"
       photo: "caio.jpg"
@@ -60,8 +65,8 @@ module.exports =
       presentation:
         title: "Dissecando sua aplicação com Chrome Dev Tools"
         description: "Vamos abrir sua app ao meio e analisar de forma minunciosa toda sua anatomia"
-        time: ""
-     ,
+        time: "9h15"
+    ,
         name: "Zaedy Sayão"
         photo: "zaedy.jpg"
         role: "Developer"
@@ -74,8 +79,8 @@ module.exports =
         presentation:
           title: "Desenvolvendo aplicações Desktop com HTML5, CSS3 e JS"
           description: "HTML5 vem cada dia mais crescendo e sendo usado tanto para sites, como para aplicações mobile. Na palestra veremos uma nova vertente, como desenvolver aplicações desktop com o uso de html5. Ainda, veremos como aproveitar o mesmo código para sites, aplicações mobile e desktop."
-          time: ""
-      ,
+          time: "9h15"
+    ,
       name: "Jaydson Gomes"
       photo: "jaydson.jpg"
       role: "front-end engineer"
@@ -88,49 +93,21 @@ module.exports =
       presentation:
         title: "JavaScript Everywhere"
         description: "Ano: 2013. A linguagem JavaScript se espalhou como vírus. A humanidade está infectada. Não existe possibilidade remota de cura. O JavaScript está em todos os lugares. PC's, Servidores, Celulares, Robôs, Espaçonaves, Geladeiras, Torradeiras e onde você menos imagina."
-        time: "1"
+        time: "10h00"
     ,
       name: "Filipe Cunha & João Felipe"
       photo: "bb.jpg"
       role: "devs"
       bio: ""
       company:
-        name: "GloboeEsporte.com & Petrobras"
+        name: "Globoesporte & Petrobras"
         region: "RJ"
       twitter: "jotaefe"
       github: "jotaefe"
       presentation:
         title: "Desenvolvendo aplicações para BlackBerry 10"
         description: "Vamos apresentar a plataforma BlackBerry 10 (BB10), demonstrando o apoio ao desenvolvedor. Técnicas de desenvolvimento apresentando o Webworks, AliceJS, BBUI, jQuery e todas ferramentas disponiveis."
-        time: ""
-    ,
-      name: "Hugo Roque"
-      photo: "hugo.jpg"
-      role: "instrutor"
-      bio: "Trabalha há mais de 2 anos na Caelum como desenvolvedor front-end e back-end de aplicações web utilizando principalmente tecnologias relacionadas à Ruby, Java e JavaScript. Entusiasta de software livre, sempre lançando bibliotecas que visam facilitar a vida do desenvolvedor, como: named_parameter e rspec-rails-extra-routing. Fascinado por aprender novas tecnologias está sempre compartilhando seus experimentos e descobertas em seu Blog, Laboratório, Github e Twitter."
-      company:
-         name: "Caelum"
-         region: "RJ"
-      twitter: "hugolnx"
-      github: "hugolnx"
-      presentation:
-        title: "Destruindo com AJAX"
-        description: "Que tal usar AJAX para destruir em usabilidade sem matar a acessibilidade?"
-        time: ""
-    ,
-      name: "Jaydson Gomes"
-      photo: "jaydson.jpg"
-      role: "front-end engineer"
-      bio: "Entusiasta JavaScript - FrontEnd Engineer no Terra Networks - Curador do BrazilJS e do RSJS"
-      company:
-        name: "Terra"
-        region: "RS"
-      twitter: "jaydson"
-      github: "jaydson"
-      presentation:
-        title: "JavaScript Everywhere"
-        description: "Ano: 2013. A linguagem JavaScript se espalhou como vírus. A humanidade está infectada. Não existe possibilidade remota de cura. O JavaScript está em todos os lugares. PC's, Servidores, Celulares, Robôs, Espaçonaves, Geladeiras, Torradeiras e onde você menos imagina."
-        time: "1"
+        time: "9h45"
     ,
       name: "Leo Balter"
       photo: "balter.jpg"
@@ -144,7 +121,7 @@ module.exports =
       presentation:
         title: "Guia de Sobrevivência JS Open Source"
         description: "Como publicar JS para terceiros de forma correta, de bônus veja como publicar plugins de jQuery em seu repositório oficial."
-        time: "1"
+        time: "10h45"
     ,
       name: "Andre Garzia"
       photo: "garzia.jpg"
@@ -158,21 +135,12 @@ module.exports =
       presentation:
         title: "Apresentação do Firefox OS para desenvolvedores"
         description: "Vamos conhecer o Firefox OS, o novo sistema operacional feito pela Mozilla onde o javascript é a principal linguagem de programação e aprender o que é necessário para desenvolver open web apps. Empresas como a Sony, ZTE, Alcatel, LG entre outras ja estão desenvolvendo aparelhos com Firefox OS. A Telefonica/Vivo vai lançar os aparelhos esse ano aqui no Brasil."
-    ,
-      name: "Leo Beto Souza"
-      photo: "leobeto.jpg"
-      role: "front-end developer e instrutor"
-      bio: "Leobetosouza se diverte com front-end desde a virada do milênio quando ninguém chamava de front-end e JavaScript só servia pra irritar o usuário. Já foi sobrinho. Já fez sites com tabelas e usou space.gif, bgsound e marquee. Fez scripts pra escrever mensagens na barra de status e de textos que seguiam o mouse. Abusou de framesets, gifs animados e escreveu o redapé de várias páginas 'Melhor visualizado no Internet Explorer 4.x com resolução de 800x600px'. Graças a Deus esse tempo ficou pra trás e hoje ele estuda Sistemas de Informação na UFF e codifica interfaces usáveis na Homem Máquina."
-      company:
-        name: "Homem Máquina/iLearn"
-        title: "Dominando o seu DOM"
-        description: "jQuery é muito legal, mas vamo combinar que carregar aquela biblioteca toda (ou qualquer uma outra) pra fazer coisas simples muitas vezes e um disperdico. Vamos aprender a ser desenvolvedores melhores e brincar com algumas APIs do Document Object Model com VanillaJS e ainda da uma olhadinha no que o futuro nos reserva!"
-        time: ""
+        time: "10h45"
     ,
       name: "Rafael Martins"
       photo: "cabra.jpg"
       role: "software engineer"
-      bio: "Desenvolvedor apaixonado, programador poliglota, mais de 8 anos de experiência, de desktop a web, de ASP a Rails, de server-side de alta performance a interfaces ricas. Atualmente trabalhando na globo.com na área de esportes. :D"
+      bio: "Desenvolvedor apaixonado, programador poliglota, mais de 8 anos de experiência, de desktop a web, de asp a rails, de server-side de alta performance a interfaces ricas. Atualmente trabalhando na globo.com na área de esportes. :D"
       company:
         name: "Globo.com"
         region: "RJ"
@@ -181,7 +149,7 @@ module.exports =
       presentation:
         title: "Testes com Javascript, acredita que é fácil?"
         description: ""
-        time: ""
+        time: "14h00"
     ,
       name: "Hugo Roque"
       photo: "hugo.jpg"
@@ -195,7 +163,7 @@ module.exports =
       presentation:
         title: "Destruindo com AJAX"
         description: "Que tal usar AJAX para destruir em usabilidade sem matar a acessibilidade?"
-        time: ""
+        time: "14h00"
     ,
       name: "Zeno Rocha"
       photo: "zeno.jpg"
@@ -209,7 +177,7 @@ module.exports =
       presentation:
         title: "Como Perder Peso (no browser)"
         description: "Dicas de performance no client-side!"
-        time: ""
+        time: "14h45"
     ,
       name: "Leo Beto Souza"
       photo: "leobeto.jpg"
@@ -222,8 +190,11 @@ module.exports =
       github: "leobetosouza"
       presentation:
         title: "Dominando o seu DOM"
-        description: "Algo que não vai mudar o mundo, mas pode fazer a sua vida mais legal."
-        time: "17h00"
+        description: "jQuery é muito legal, mas vamos combinar que carregar aquela bibliotéca toda (ou qualquer uma outra) pra fazer coisas simples muitas vezes e um desperdicio. Vamos aprender a ser desenvolvedores melhores e brincar com algumas APIs do Document Object Model com VanillaJS e ainda da uma olhadinha no que o futuro nos reserva!"
+        time: "14h45"
+    ,
+      name: "coffee-break"
+      time: "15h30"
     ,
       name: "Alexandre Gaigalas"
       photo: "gaigalas.jpg"
@@ -237,7 +208,7 @@ module.exports =
       presentation:
         title: "Boas Práticas Funcionam Melhor Juntas"
         description: "PushState, semântica, progressive enhancement, REST, hipermídia, gerenciamento de conexões, etc. A lista é longa. Separadas, essas boas práticas são normalmente deixadas de lado porque não ajudam muito a produtividade. E juntas?"
-        time: ""
+        time: "16h00"
     ,
       name: "Fellyph Cintra"
       photo: "fellyph.jpg"
@@ -251,7 +222,7 @@ module.exports =
       presentation:
         title: "Fazendo a coisa acontecer"
         description: "Analisando as mudanças do mercado e o comportamento dos desenvolvedores. Como buscar soluções através de ferramentas do seu dia-a-dia e ter destaque no mercado atual."
-        time: ""
+        time: "16h00"
     ,
       name: "Bernard De Luna"
       photo: "luna.jpg"
@@ -265,7 +236,7 @@ module.exports =
       presentation:
         title: "Atenção, dev no palco!"
         description: "Cada vez mais jovens desenvolvedores estão procurando passar conhecimento para o próximo, e isso é ótimo! Porém, o medo do palco acaba comprometendo o que era para ser um espetáculo. Venha conhecer algumas dicas de como dar um show em suas palestras."
-        time: ""
+        time: "16h45"
     ,
       name: "Almir Filho"
       photo: "almir.jpg"
@@ -279,7 +250,10 @@ module.exports =
       presentation:
         title: "Web Audio Hero"
         description: "Desvendaremos esta nova API de alto nível para processamento e sintetização de audio em aplicações web: Web Audio API – que nos permitirá quebrar o silêncio da Web sem limitações."
-        time: ""
+        time: "16h45"
+    ,
+      name: "encerramento"
+      time: "17h45"
     ]
 
     # List of Sponsors
@@ -301,17 +275,17 @@ module.exports =
     ,
       name: "Contabilidade e consultoria"
       logo: "lcr.png"
-      type: "Prata"
+      type: "prata"
       url: "http://www.lcrcontabilidade.com/"
     ,
       name: "JDigital"
       logo: "jdcom.gif"
-      type: "Prata"
+      type: "prata"
       url: "http://www.jdcom.com.br/"
     ,
       name: "Wakanda"
       logo: "wakanda.png"
-      type: "Prata"
+      type: "prata"
       url: "http://www.wakanda.org/"
     ]
 

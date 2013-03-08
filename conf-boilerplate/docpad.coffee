@@ -17,7 +17,7 @@ module.exports =
 
     # Site info
     site:
-      theme: "yellow-swan"
+      theme: "riojs-conf-2013"
       url: "http://riojs.org"
       googleanalytics: "UA-26694649-1"
       images:
@@ -27,12 +27,10 @@ module.exports =
     # to deactivate comment out with '#'
     # you can also change order here and it will reflect on page
     sections: [
-      # 'about'
       'speakers'
       'location'
       'sponsors'
       'partners'
-      # 'contact'
     ]
 
     # Labels which you can translate to other languages
@@ -97,7 +95,7 @@ module.exports =
       role: "devs"
       bio: ""
       company:
-        name: "Globoesporte & Petrobras"
+        name: "GloboeEsporte.com & Petrobras"
         region: "RJ"
       twitter: "jotaefe"
       github: "jotaefe"
@@ -105,6 +103,34 @@ module.exports =
         title: "Desenvolvendo aplicações para BlackBerry 10"
         description: "Vamos apresentar a plataforma BlackBerry 10 (BB10), demonstrando o apoio ao desenvolvedor. Técnicas de desenvolvimento apresentando o Webworks, AliceJS, BBUI, jQuery e todas ferramentas disponiveis."
         time: ""
+    ,
+      name: "Hugo Roque"
+      photo: "hugo.jpg"
+      role: "instrutor"
+      bio: "Trabalha há mais de 2 anos na Caelum como desenvolvedor front-end e back-end de aplicações web utilizando principalmente tecnologias relacionadas à Ruby, Java e JavaScript. Entusiasta de software livre, sempre lançando bibliotecas que visam facilitar a vida do desenvolvedor, como: named_parameter e rspec-rails-extra-routing. Fascinado por aprender novas tecnologias está sempre compartilhando seus experimentos e descobertas em seu Blog, Laboratório, Github e Twitter."
+      company:
+         name: "Caelum"
+         region: "RJ"
+      twitter: "hugolnx"
+      github: "hugolnx"
+      presentation:
+        title: "Destruindo com AJAX"
+        description: "Que tal usar AJAX para destruir em usabilidade sem matar a acessibilidade?"
+        time: ""
+    ,
+      name: "Jaydson Gomes"
+      photo: "jaydson.jpg"
+      role: "front-end engineer"
+      bio: "Entusiasta JavaScript - FrontEnd Engineer no Terra Networks - Curador do BrazilJS e do RSJS"
+      company:
+        name: "Terra"
+        region: "RS"
+      twitter: "jaydson"
+      github: "jaydson"
+      presentation:
+        title: "JavaScript Everywhere"
+        description: "Ano: 2013. A linguagem JavaScript se espalhou como vírus. A humanidade está infectada. Não existe possibilidade remota de cura. O JavaScript está em todos os lugares. PC's, Servidores, Celulares, Robôs, Espaçonaves, Geladeiras, Torradeiras e onde você menos imagina."
+        time: "1"
     ,
       name: "Leo Balter"
       photo: "balter.jpg"
@@ -132,12 +158,21 @@ module.exports =
       presentation:
         title: "Apresentação do Firefox OS para desenvolvedores"
         description: "Vamos conhecer o Firefox OS, o novo sistema operacional feito pela Mozilla onde o javascript é a principal linguagem de programação e aprender o que é necessário para desenvolver open web apps. Empresas como a Sony, ZTE, Alcatel, LG entre outras ja estão desenvolvendo aparelhos com Firefox OS. A Telefonica/Vivo vai lançar os aparelhos esse ano aqui no Brasil."
+    ,
+      name: "Leo Beto Souza"
+      photo: "leobeto.jpg"
+      role: "front-end developer e instrutor"
+      bio: "Leobetosouza se diverte com front-end desde a virada do milênio quando ninguém chamava de front-end e JavaScript só servia pra irritar o usuário. Já foi sobrinho. Já fez sites com tabelas e usou space.gif, bgsound e marquee. Fez scripts pra escrever mensagens na barra de status e de textos que seguiam o mouse. Abusou de framesets, gifs animados e escreveu o redapé de várias páginas 'Melhor visualizado no Internet Explorer 4.x com resolução de 800x600px'. Graças a Deus esse tempo ficou pra trás e hoje ele estuda Sistemas de Informação na UFF e codifica interfaces usáveis na Homem Máquina."
+      company:
+        name: "Homem Máquina/iLearn"
+        title: "Dominando o seu DOM"
+        description: "jQuery é muito legal, mas vamo combinar que carregar aquela biblioteca toda (ou qualquer uma outra) pra fazer coisas simples muitas vezes e um disperdico. Vamos aprender a ser desenvolvedores melhores e brincar com algumas APIs do Document Object Model com VanillaJS e ainda da uma olhadinha no que o futuro nos reserva!"
         time: ""
     ,
       name: "Rafael Martins"
       photo: "cabra.jpg"
       role: "software engineer"
-      bio: "Desenvolvedor apaixonado, programador poliglota, mais de 8 anos de experiência, de desktop a web, de asp a rails, de server-side de alta performance a interfaces ricas. Atualmente trabalhando na globo.com na área de esportes. :D"
+      bio: "Desenvolvedor apaixonado, programador poliglota, mais de 8 anos de experiência, de desktop a web, de ASP a Rails, de server-side de alta performance a interfaces ricas. Atualmente trabalhando na globo.com na área de esportes. :D"
       company:
         name: "Globo.com"
         region: "RJ"
@@ -146,7 +181,7 @@ module.exports =
       presentation:
         title: "Testes com Javascript, acredita que é fácil?"
         description: ""
-        time: "17h00"
+        time: ""
     ,
       name: "Hugo Roque"
       photo: "hugo.jpg"
@@ -232,7 +267,7 @@ module.exports =
         description: "Cada vez mais jovens desenvolvedores estão procurando passar conhecimento para o próximo, e isso é ótimo! Porém, o medo do palco acaba comprometendo o que era para ser um espetáculo. Venha conhecer algumas dicas de como dar um show em suas palestras."
         time: ""
     ,
-          name: "Almir Filho"
+      name: "Almir Filho"
       photo: "almir.jpg"
       role: "front-end engineer"
       bio: "Co-fundador do blog Loop Infinito, desenvolvedor na Globo.com e mestrando em Ciência da Computação."
@@ -266,17 +301,17 @@ module.exports =
     ,
       name: "Contabilidade e consultoria"
       logo: "lcr.png"
-      type: "prata"
+      type: "Prata"
       url: "http://www.lcrcontabilidade.com/"
     ,
       name: "JDigital"
       logo: "jdcom.gif"
-      type: "prata"
+      type: "Prata"
       url: "http://www.jdcom.com.br/"
     ,
       name: "Wakanda"
       logo: "wakanda.png"
-      type: "prata"
+      type: "Prata"
       url: "http://www.wakanda.org/"
     ]
 

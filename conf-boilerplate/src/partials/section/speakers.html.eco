@@ -11,12 +11,12 @@
       <% if speaker.time: %>
       <li class="task-item">
         <span class="speech-time">
-          <%= speaker.time %>
+          <%= speaker.time %><br>
           <%= speaker.name %>
         </span>
 
       <% else if speaker.presentation.time: %>
-      <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      <li class="speakers-item speaker-<%= speaker.github %>" itemprop="performer" itemscope itemtype="http://schema.org/Person">
         <span class="speech-time"><%= speaker.presentation.time %></span>
 
         <section class="speakers-item-inner">

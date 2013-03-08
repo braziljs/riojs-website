@@ -17,7 +17,7 @@ module.exports =
 
     # Site info
     site:
-      theme: "yellow-swan"
+      theme: "riojs-conf-2013"
       url: "http://riojs.org"
       googleanalytics: "UA-26694649-1"
       images:
@@ -93,7 +93,7 @@ module.exports =
       presentation:
         title: "JavaScript Everywhere"
         description: "Ano: 2013. A linguagem JavaScript se espalhou como vírus. A humanidade está infectada. Não existe possibilidade remota de cura. O JavaScript está em todos os lugares. PC's, Servidores, Celulares, Robôs, Espaçonaves, Geladeiras, Torradeiras e onde você menos imagina."
-        time: "10h00"
+        time: "10h05"
     ,
       name: "Filipe Cunha & João Felipe"
       photo: "bb.jpg"
@@ -107,7 +107,7 @@ module.exports =
       presentation:
         title: "Desenvolvendo aplicações para BlackBerry 10"
         description: "Vamos apresentar a plataforma BlackBerry 10 (BB10), demonstrando o apoio ao desenvolvedor. Técnicas de desenvolvimento apresentando o Webworks, AliceJS, BBUI, jQuery e todas ferramentas disponiveis."
-        time: "9h45"
+        time: "10h05"
     ,
       name: "Leo Balter"
       photo: "balter.jpg"
@@ -121,7 +121,7 @@ module.exports =
       presentation:
         title: "Guia de Sobrevivência JS Open Source"
         description: "Como publicar JS para terceiros de forma correta, de bônus veja como publicar plugins de jQuery em seu repositório oficial."
-        time: "10h45"
+        time: "10h55"
     ,
       name: "Andre Garzia"
       photo: "garzia.jpg"
@@ -135,21 +135,10 @@ module.exports =
       presentation:
         title: "Apresentação do Firefox OS para desenvolvedores"
         description: "Vamos conhecer o Firefox OS, o novo sistema operacional feito pela Mozilla onde o javascript é a principal linguagem de programação e aprender o que é necessário para desenvolver open web apps. Empresas como a Sony, ZTE, Alcatel, LG entre outras ja estão desenvolvendo aparelhos com Firefox OS. A Telefonica/Vivo vai lançar os aparelhos esse ano aqui no Brasil."
-        time: "10h45"
+        time: "10h55"
     ,
-      name: "Rafael Martins"
-      photo: "cabra.jpg"
-      role: "software engineer"
-      bio: "Desenvolvedor apaixonado, programador poliglota, mais de 8 anos de experiência, de desktop a web, de asp a rails, de server-side de alta performance a interfaces ricas. Atualmente trabalhando na globo.com na área de esportes. :D"
-      company:
-        name: "Globo.com"
-        region: "RJ"
-      twitter: "rafael_mws"
-      github: "rafaelmws"
-      presentation:
-        title: "Testes com Javascript, acredita que é fácil?"
-        description: ""
-        time: "14h00"
+      name: "almoço"
+      time: "11h45"
     ,
       name: "Hugo Roque"
       photo: "hugo.jpg"
@@ -165,19 +154,19 @@ module.exports =
         description: "Que tal usar AJAX para destruir em usabilidade sem matar a acessibilidade?"
         time: "14h00"
     ,
-      name: "Zeno Rocha"
-      photo: "zeno.jpg"
-      role: "front-end engineer"
-      bio: ""
+      name: "Rafael Martins"
+      photo: "cabra.jpg"
+      role: "software engineer"
+      bio: "Desenvolvedor apaixonado, programador poliglota, mais de 8 anos de experiência, de desktop a web, de asp a rails, de server-side de alta performance a interfaces ricas. Atualmente trabalhando na globo.com na área de esportes. :D"
       company:
-         name: "Liferay"
-         region: "RJ"
-      twitter: "zenorocha"
-      github: "zenorocha"
+        name: "Globo.com"
+        region: "RJ"
+      twitter: "rafael_mws"
+      github: "rafaelmws"
       presentation:
-        title: "Como Perder Peso (no browser)"
-        description: "Dicas de performance no client-side!"
-        time: "14h45"
+        title: "Testes com Javascript, acredita que é fácil?"
+        description: ""
+        time: "14h00"
     ,
       name: "Leo Beto Souza"
       photo: "leobeto.jpg"
@@ -191,6 +180,20 @@ module.exports =
       presentation:
         title: "Dominando o seu DOM"
         description: "jQuery é muito legal, mas vamos combinar que carregar aquela bibliotéca toda (ou qualquer uma outra) pra fazer coisas simples muitas vezes e um desperdicio. Vamos aprender a ser desenvolvedores melhores e brincar com algumas APIs do Document Object Model com VanillaJS e ainda da uma olhadinha no que o futuro nos reserva!"
+        time: "14h45"
+    ,
+      name: "Zeno Rocha"
+      photo: "zeno.jpg"
+      role: "front-end engineer"
+      bio: ""
+      company:
+         name: "Liferay"
+         region: "RJ"
+      twitter: "zenorocha"
+      github: "zenorocha"
+      presentation:
+        title: "Como Perder Peso (no browser)"
+        description: "Dicas de performance no client-side!"
         time: "14h45"
     ,
       name: "coffee-break"

@@ -189,6 +189,9 @@ h6 {
 /* =============================================================================
    PARTNERS
    ========================================================================== */
+.partners {
+  padding-bottom: 50px;
+}
 .content .partners {
   min-height: 590px;
 }
@@ -229,10 +232,34 @@ h6 {
 /* =============================================================================
    SPEAKER
    ========================================================================== */
+.speakers {
+  position: relative;
+}
 .speakers,
 .partners {
   background: url(../img/sobre_bg.gif);
-  padding-bottom: 50px;
+}
+.rooms {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  width: 900px;
+  margin-left: -450px;
+  top: 160px;
+}
+.room {
+  display: inline-block;
+  width: 400px;
+  padding: 10px;
+  /*margin-left: 192px;*/
+  color: #333;
+  font-size: 22px;
+  text-align: right;
+  text-transform: uppercase;
+}
+.room:first-child {
+  margin-left: 25px;
+  text-align: left;
 }
 .section-title {
   color: rgba(255, 128, 0, 0.8);
@@ -244,10 +271,13 @@ h6 {
   right: 12px;
 }
 .speakers-list {
-  width: 850px;
-  margin: 0 auto;
+  background: url('../img/timeline.jpg') repeat-y center center;
   clear: both;
   display: block;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  width: 850px;
+  margin-top: 70px;
 }
 .speaker-photo .photo {
   border-radius: 5px;
@@ -260,12 +290,24 @@ h6 {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
+.task-item {
+  clear: both;
+  height: 50px;
+  margin: -30px 0 25px;
+  padding: 0 0 10px 0;
+  position: relative;
+  text-align: center;
+}
 .speakers-item {
   text-align: right;
+  margin-bottom: 65px;
   padding: 10px 0;
   float: left;
+}
+.speakers-item .speakers-item-inner {
   overflow: hidden;
-  margin: 10px 0;
+  padding-top: 0;
+  position: relative;
 }
 .speakers-item:nth-child(odd) {
   margin-left: 0px;
@@ -286,7 +328,7 @@ h6 {
   height: 200px;
   left: -400px;
   position: absolute;
-  top: 10px;
+  top: 0;
   width: 400px;
   z-index: 20;
   -webkit-transition: all 0.2s linear;
@@ -346,16 +388,27 @@ h6 {
   text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   top: 18px;
 }
+.task-item .speech-time,
 .speakers-item .speech-time {
-  color: #666;
-  border-radius: 8px;
-  display: none;
-  position: absolute;
-  top: 25px;
-  right: -71px;
+  background-color: rgba(255, 128, 0, 0.6);
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 600;
   text-transform: lowercase;
+  border-radius: 3px;
+  padding: 8px 0px;
+  position: absolute;
+  right: -77px;
+  text-align: center;
+  top: -50px;
+  width: 103px;
+}
+.task-item .speech-time {
+  left: 50%;
+  line-height: 15px;
+  margin-left: -51px;
+  top: -20px;
 }
 .speakers-item .speaker-name {
    font-size: 1em;
@@ -375,6 +428,15 @@ h6 {
 .speakers-item:nth-child(even) .speech-time,
 .speakers-item:nth-child(even) .speech-bullet {
   display: none;
+}
+.speaker-alganet,
+.speaker-bernarddeluna {
+    margin-left: 0px;
+}
+.speaker-fellyph,
+.speaker-almirfilho {
+  float: left;
+  /*float: right;*/
 }
 .speakers-item .company {
   color: rgba(255, 128, 0, 0.8);
@@ -494,7 +556,9 @@ h6 {
   }
   .speakers-list {
     margin-bottom: 30px;
+    padding-top: 50px;
     width: 400px;
+    margin-top: 70px;
   }
   .speakers-item {
     display: block;
@@ -506,7 +570,7 @@ h6 {
     border-radius:5px;
     border:0;
   }
-  .speakers-item:nth-child(even) {
+.speakers-list .speakers-item:nth-child(2n) {
     float: none;
   }
   .speakers-item .presentation {

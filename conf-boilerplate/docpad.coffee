@@ -329,4 +329,8 @@ module.exports =
       name: "Blackberry"
       logo: "blackberry.jpg"
       url: "http://devblog.blackberry.com/"
+    ,
+      name: "Instituto Infnet"
+      logo: "infnet.png"
+      url: "http://www.infnet.edu.br/"
     ]

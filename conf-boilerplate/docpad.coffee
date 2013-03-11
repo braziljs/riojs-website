@@ -333,4 +333,8 @@ module.exports =
       name: "Instituto Infnet"
       logo: "infnet.png"
       url: "http://www.infnet.edu.br/"
+    ,
+      name: "Videolog"
+      logo: "videolog.png"
+      url: "http://www.videolog.tv/"
     ]

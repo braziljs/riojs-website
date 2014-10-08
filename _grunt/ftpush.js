@@ -14,6 +14,7 @@ module.exports = {
                  '2014',
                  'v2',
                  'Makefile',
+                 'README.md',
                  'package.json',
                  'Gruntfile.js',
                  'node_modules'],

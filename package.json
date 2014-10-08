@@ -4,6 +4,7 @@
     "grunt": "0.4.1",
     "grunt-contrib-csslint": "^0.2.0",
     "grunt-ftpush": "^0.3.3",
-    "load-grunt-config": "^0.13.0"
+    "load-grunt-config": "^0.13.0",
+    "time-grunt": "^1.0.0"
   }
 }

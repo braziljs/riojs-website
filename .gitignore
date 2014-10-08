@@ -5,3 +5,4 @@ _site
 run/
 v2/
 .ftppass
+.grunt/

@@ -1,4 +1,0 @@
-<!-- <h2 class="section-title"><%= @labels['about'] %></h2> -->
-<!-- <h2 class="section-title">"</h2> -->
-<p itemprop="description" class="description">RioJS, um grupo de desenvolvedores javascript do Rio de Janeiro, criado em junho de 2011,
-	como o objetivo de reunir a comunidade do estado. Hoje conta com cerca de 520 participantes no facebook, se configurando como maior grupo JS da amÃ©rica latina.</p>
